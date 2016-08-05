@@ -119,6 +119,7 @@ exclude:
   - README
   - tmp
   - .Rproj
+  
 keep_files:
   - .git
   - .svn
