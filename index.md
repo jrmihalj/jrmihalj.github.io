@@ -8,7 +8,7 @@ header:
 
 # Welcome to my site!
 
-My research lies at the intersection of quantiative, community, and disease ecology. I aim to apply advanced mathematical and statistical methods to discover the ecological and epidemiological drivers of host and pathogen community composition, ultimately informing infectious disease dynamics. 
+My research lies at the intersection of quantitative, community, and disease ecology. I apply a variety of mathematical, statistical and empirical methods to discover the ecological and epidemiological drivers of host-pathogen community composition, ultimately informing infectious disease dynamics. 
 
 I am currently a Postdoctoral Fellow at the University of Chicago, working with [Greg Dwyer](dwyerlab.uchicago.edu) and our US Forest Service collaborator, [Karl Polivka](http://www.fs.fed.us/research/people/profile.php?alias=kpolivka). We are studying the epizootic dynamics Douglas-fir tussock moth baculoviruses in the Pacific Northwest. Our goal is to integrate experiments and mechanistic modeling approaches to develop recommendations for a USFS microbial control program and to generally gain a deeper understanding of the host-pathogen biology in this system. This project neatly demonstrates how mathematical epidemiology can inform a practical problem: biological pest control. You can read about this project more informally at this [blog](http://www.numbatmedia.com/stories/2016/4/5/mihaljevic?platform=hootsuite).
 
