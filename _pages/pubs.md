@@ -4,7 +4,7 @@ author_profile: false
 header:
   image: pubs_header.jpg
   caption: "*Florida Mangroves*"
-permalink: /publications
+permalink: /publications/
 ---
 
 
