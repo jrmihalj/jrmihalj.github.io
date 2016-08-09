@@ -9,7 +9,7 @@ feature_row:
   - image_path: coinfect.jpg
     #title: 
     excerpt: "Host-pathogen Community Dynamics"
-    url: /host-pathogen-diversity
+    url: /research/host-pathogen-diversity
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: metacom.jpg
