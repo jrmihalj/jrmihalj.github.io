@@ -8,7 +8,7 @@ permalink: /research/
 feature_row:
   - image_path: coinfect.jpg
     #title: 
-    excerpt: "Host-pathogen Community Dynamics"
+    excerpt: "Host-Pathogen Community Dynamics"
     url: /research/host-pathogen-diversity
     btn_label: "Read More"
     btn_class: "btn--inverse"
