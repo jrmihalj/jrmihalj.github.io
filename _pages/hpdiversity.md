@@ -1,7 +1,9 @@
 ---
 layout: single
 author_profile: false
-
+header:
+  image: host-div_header.jpg
+  caption: "*Delton, Michigan*"
 permalink: /research/host-pathogen-diversity/
 ---
 
@@ -14,7 +16,7 @@ In my thesis work, I began exploring these questions both theoretically and empi
 
 I am currently working with collaborators to extend this model to include multiple pathogen species and a spatially explicit structure, allowing for host movement. 
 
-## Ranaviruses
-I also explored the effects of pathogen diversity on host health and transmission using an amphibian-virus system of conservation concern. Viruses of the genus *Ranavirus* infect hundreds of amphibian species globally and can cause large, local die-off events as a result of highly transmissible, systemic infections that cause severe hemorrhages and organ failure. ![Ranavirus1](/images/research/ranavirus1.jpg) These viruses are ecologically and genetically diverse, globally widespread, locally prevalent, which makes them a great system to explore questions about how pathogen and host diversity affect disease. Collaborators and I conducted a lab experiment to understand how the two type-species of this viral genus might interact to affect overall transmission and disease. We found that co-exposure to two *Ranavirus* species, but not to two strains of the same species, leads to increased susceptibility, enhanced virual replication, and in some cases larger epidemics. In the future, I will combine widespread pathogen and host surveys, experiments and mechanistic models to better understand the epidemiological consequences of host and pathogen diversity in this system.
+## Amphibian Ranaviruses
+I also explored the effects of pathogen diversity on host health and transmission using an amphibian-virus system of conservation concern. Viruses of the genus *Ranavirus* infect hundreds of amphibian species globally and can cause large, local die-off events as a result of highly transmissible, systemic infections that cause severe hemorrhages and organ failure. ![Ranavirus1](/images/research/ranavirus1.jpg) These viruses are ecologically and genetically diverse, globally widespread, locally prevalent, which makes them a great system to explore questions about how pathogen and host diversity affect disease. Collaborators and I conducted a lab experiment to understand how the two type-species of this viral genus might interact to affect overall transmission and disease (Mihaljevic et at. *in revision*). We found that co-exposure to two *Ranavirus* species, but not to two strains of the same species, leads to increased susceptibility, enhanced virual replication, and in some cases larger epidemics. In the future, I will combine widespread pathogen and host surveys, experiments and mechanistic models to better understand the epidemiological consequences of host and pathogen diversity in this system.
 ![Ranavirus2](/images/research/ranavirus2.jpg)
 
