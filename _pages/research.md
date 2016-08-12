@@ -15,7 +15,7 @@ feature_row:
   - image_path: metacom.jpg
     #title: "Placeholder 2"
     excerpt: "Symbiont Metacommunities"
-    url: "#test-link"
+    url: /research/symbiont-metacommunities
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: DFTM.jpg
