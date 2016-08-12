@@ -3,7 +3,7 @@ layout: single
 author_profile: false
 header:
   image: pest_header.jpg
-  caption: "*Cypress Swamps, Louisiana*"
+  caption: "*Moab, UT*"
 permalink: /research/pest-control/
 ---
 

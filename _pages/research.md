@@ -21,7 +21,7 @@ feature_row:
   - image_path: DFTM.jpg
     #title: "Placeholder 3"
     excerpt: "Viral Pest Control"
-    url: "#test-link"
+    url: /research/pest-control
     btn_label: "Read More"
     btn_class: "btn--inverse"
 ---
