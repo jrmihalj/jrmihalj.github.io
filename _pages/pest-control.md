@@ -3,7 +3,7 @@ layout: single
 author_profile: false
 header:
   image: pest_header.jpg
-  caption: "*Moab, UT*"
+  caption: "*Grand Teton National Park*"
 permalink: /research/pest-control/
 ---
 
