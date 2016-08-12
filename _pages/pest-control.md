@@ -7,7 +7,7 @@ header:
 permalink: /research/pest-control/
 ---
 
-# Viral Control of the Douglas-fir tussock moth
+# Viral control of the Douglas-fir tussock moth
 
 ## Using epidemiological theory to inform practice
 
@@ -15,7 +15,7 @@ Outbreaks of the Douglas-fir tussock moth (DFTM) can cause massive die-offs in D
 
 ![DFTM1](/images/research/DFTM1.jpg)
 
-## Coexistence of viral polymorphism
+## Maintenance of viral polymorphism
 
 A noteworthy aspect of the Douglas-fir tussock moth (DFTM) – virus biology is that two morphotypes of the baculovirus (OpNPV) exist in nature, which differ both genetically and based on ultrastructure. One type, the multi-capsid type (OpMNPV) bundles multiple virus particles into membranes within the polyhedral inclusion body, while the single-capsid type (OpSNPV) packages virus particles without bundling. 
 
