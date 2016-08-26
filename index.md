@@ -4,6 +4,10 @@ author_profile: true
 header:
   image: home_header.jpg
   caption: "*Glacier National Park*"
+tags:
+  - Joseph Mihaljevic
+  - University of Chicago
+  - disease ecology
 ---
 
 # Welcome to my site!
