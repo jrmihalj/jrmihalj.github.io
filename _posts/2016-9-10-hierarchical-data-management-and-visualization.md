@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Hierarchical Data Management and Visualization"
 output: html_document
 tags: [r, mixed models, random effects, nested data, data science, dplyr, ggplot2]
