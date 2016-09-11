@@ -1,0 +1,603 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Hierarchical Data Management and Visualization - Disease Ecology and Evolution</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="Disease Ecology and Evolution">
+<meta property="og:title" content="Hierarchical Data Management and Visualization">
+
+
+  <link rel="canonical" href="https://jrmihalj.github.io/hierarchical-data-management-and-visualization/">
+  <meta property="og:url" content="https://jrmihalj.github.io/hierarchical-data-management-and-visualization/">
+
+
+
+  <meta property="og:description" content="This blog has a few goals. First, you’ll see how to simulate a nested data set using the assumptions of a linear mixed-effects model. Then, you’ll learn about R packages that can help to summarize and visualize similar hierarchical data in fast, reproducible, and easily generlizable ways. Finally, the user can change the simulation parameters to visualize the emergent effects of variability at different hierarchical scales.">
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2016-09-10T00:00:00-05:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Joseph R. Mihaljevic",
+      "url" : "https://jrmihalj.github.io",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://jrmihalj.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Disease Ecology and Evolution Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://jrmihalj.github.io/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://jrmihalj.github.io/">Disease Ecology and Evolution</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://jrmihalj.github.io/research/">Research</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://jrmihalj.github.io/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://drive.google.com/file/d/0B9UsfqlH3_y1ZmQ4ZU9vV01HM1U/view?usp=sharing">CV</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://jrmihalj.github.io/blog/">Blog and News</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="https://jrmihalj.github.io/images/bio-photo.jpg" class="author__avatar" alt="Joseph Mihaljevic">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Joseph Mihaljevic</h3>
+    <p class="author__bio">Disease ecologist, outdoor enthusiast, data wrangler</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> University of Chicago</li>
+      
+      
+      
+        <li><a href="mailto:jmihaljevic@uchicago.edu"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> jmihaljevic@uchicago.edu</a></li>
+      
+      
+      
+        <li><a href="https://twitter.com/JRM_theory"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <li><a href="https://github.com/jrmihalj"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Hierarchical Data Management and Visualization">
+    <meta itemprop="description" content="This blog has a few goals. First, you’ll see how to simulate a nested data set using the assumptions of a linear mixed-effects model. Then, you’ll learn about R packages that can help to summarize and visualize similar hierarchical data in fast, reproducible, and easily generlizable ways. Finally, the user can change the simulation parameters to visualize the emergent effects of variability at different hierarchical scales.">
+    <meta itemprop="datePublished" content="September 10, 2016">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Hierarchical Data Management and Visualization
+</h1>
+          
+            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+	  6 minute read
+	
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <p>This blog has a few goals. First, you’ll see how to simulate a nested data set using the assumptions of a linear mixed-effects model. Then, you’ll learn about <em>R</em> packages that can help to summarize and visualize similar hierarchical data in fast, reproducible, and easily generlizable ways. Finally, the user can change the simulation parameters to visualize the emergent effects of variability at different hierarchical scales.</p>
+
+<h2 id="data-generation">Data Generation</h2>
+
+<p>Working with hierarchical data can be a pain, but there is a suite of <em>R</em> packages in the <code class="highlighter-rouge">tidy</code> family that are unbelievably helpful. What I mean is that these packages will change your scientific life forever. For real.</p>
+
+<p>Hyperbole aside, let’s start by generating some realistic, nested data. We’ll be testing Bergmann’s rule that body size increases with elevation (as a proxy for temperature) by sampling along different mountains. We’ll sample multiple individuals of many species, representing many genera, sampled across multiple mountains. Lots of nestedness here.</p>
+
+<p>There’s a lot of non-independence going on with this type of nested sampling. You’d expect body size to vary more among genera, than among species within a given genera, and there is probably variation among mountains. This all effects the intercept of body size. There might be similar non-independence in the relationship between body size and elevation (i.e. the slope). We’ll code this type of non-independence as random effects on the interecept and slope, below.</p>
+
+<p>This blog is focused on managing and visualizing hierarchical data. In a later post, I’ll use this same generative example to illustrate proper statstical models to handle all of this non-independence.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="c1">## Sample sizes:
+</span><span class="n">mount_N</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="m">10</span><span class="w"> </span><span class="c1"># Number of mountains sampled
+</span><span class="n">obs_N_perMount</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">sample</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="m">100</span><span class="o">:</span><span class="m">300</span><span class="p">),</span><span class="w"> </span><span class="n">size</span><span class="o">=</span><span class="n">mount_N</span><span class="p">,</span><span class="w"> </span><span class="n">replace</span><span class="o">=</span><span class="nb">T</span><span class="p">)</span><span class="w">
+</span><span class="n">obs_N</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">sum</span><span class="p">(</span><span class="n">obs_N_perMount</span><span class="p">)</span><span class="w">
+</span><span class="c1"># Note: the same species could be found on different mountains
+</span><span class="n">genera_N</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="m">15</span><span class="w"> </span><span class="c1"># Number of genera
+</span><span class="n">species_N_perGenus</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">sample</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="m">2</span><span class="o">:</span><span class="m">8</span><span class="p">),</span><span class="w"> </span><span class="n">size</span><span class="o">=</span><span class="n">genera_N</span><span class="p">,</span><span class="w"> </span><span class="n">replace</span><span class="o">=</span><span class="nb">T</span><span class="p">)</span><span class="w"> </span><span class="c1"># Number of species per genus
+</span><span class="n">species_N</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">sum</span><span class="p">(</span><span class="n">species_N_perGenus</span><span class="p">)</span><span class="w">
+
+</span><span class="c1">## Create placeholders
+# Make sure these are factors, which will be used later. 
+</span><span class="n">Mount</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">factor</span><span class="p">(</span><span class="nf">rep</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="o">:</span><span class="n">mount_N</span><span class="p">),</span><span class="w"> </span><span class="n">times</span><span class="o">=</span><span class="n">obs_N_perMount</span><span class="p">))</span><span class="w">
+</span><span class="n">Genera</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">factor</span><span class="p">(</span><span class="n">sample</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="o">:</span><span class="n">genera_N</span><span class="p">),</span><span class="w"> </span><span class="n">size</span><span class="o">=</span><span class="n">obs_N</span><span class="p">,</span><span class="w"> </span><span class="n">replace</span><span class="o">=</span><span class="nb">T</span><span class="p">))</span><span class="w">
+</span><span class="n">Species</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">factor</span><span class="p">(</span><span class="n">sample</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="o">:</span><span class="n">species_N</span><span class="p">),</span><span class="w"> </span><span class="n">size</span><span class="o">=</span><span class="n">obs_N</span><span class="p">,</span><span class="w"> </span><span class="n">replace</span><span class="o">=</span><span class="nb">T</span><span class="p">))</span><span class="w">
+  
+</span><span class="c1">## Now assign parameters that determine the relationship between elevation and body size
+</span><span class="n">beta_mean</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="m">2.0</span><span class="w"> </span><span class="c1"># Slope: Body size declines with elevation
+</span><span class="n">alpha_mean</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="m">0.0</span><span class="w"> </span><span class="c1"># Intercept: Mean body size (centered and scaled)
+</span><span class="w">
+</span><span class="c1"># Random effects on slope
+</span><span class="n">species_sd_beta</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="m">0.5</span><span class="w"> 
+</span><span class="n">genera_sd_beta</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="m">2.5</span><span class="w">
+</span><span class="n">mount_sd_beta</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="m">1.0</span><span class="w">
+
+</span><span class="n">species_rand_beta</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">rnorm</span><span class="p">(</span><span class="n">species_N</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="n">species_sd_beta</span><span class="p">)</span><span class="w">
+</span><span class="n">genera_rand_beta</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">rnorm</span><span class="p">(</span><span class="n">genera_N</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="n">genera_sd_beta</span><span class="p">)</span><span class="w">
+</span><span class="n">mount_rand_beta</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">rnorm</span><span class="p">(</span><span class="n">mount_N</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="n">mount_sd_beta</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># Random effects on intercept
+</span><span class="n">species_sd_alpha</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="m">2.5</span><span class="w">
+</span><span class="n">genera_sd_alpha</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="m">10.0</span><span class="w">
+</span><span class="n">mount_sd_alpha</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="m">2.5</span><span class="w">
+
+</span><span class="n">species_rand_alpha</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">rnorm</span><span class="p">(</span><span class="n">species_N</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="n">species_sd_alpha</span><span class="p">)</span><span class="w">
+</span><span class="n">genera_rand_alpha</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">rnorm</span><span class="p">(</span><span class="n">genera_N</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="n">genera_sd_alpha</span><span class="p">)</span><span class="w">
+</span><span class="n">mount_rand_alpha</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">rnorm</span><span class="p">(</span><span class="n">mount_N</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="n">mount_sd_alpha</span><span class="p">)</span><span class="w">
+
+</span><span class="c1">## Elevation (centered and scaled)
+</span><span class="n">Elevation</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">rnorm</span><span class="p">(</span><span class="n">obs_N</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="w">
+
+</span><span class="c1">## Generate body weights
+# Note: Because we generated the data above in a smart way, we can vectorize this process!
+</span><span class="n">Weight</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">vector</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">"numeric"</span><span class="p">,</span><span class="w"> </span><span class="n">length</span><span class="o">=</span><span class="n">obs_N</span><span class="p">)</span><span class="w">
+</span><span class="c1"># Add the intercept with random effects:
+</span><span class="n">Weight</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">alpha_mean</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">species_rand_alpha</span><span class="p">[</span><span class="n">Species</span><span class="p">]</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">genera_rand_alpha</span><span class="p">[</span><span class="n">Genera</span><span class="p">]</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">mount_rand_alpha</span><span class="p">[</span><span class="n">Mount</span><span class="p">]</span><span class="w">
+</span><span class="c1"># Add the slope with random effects:
+</span><span class="n">Weight</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">Weight</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="p">(</span><span class="n">beta_mean</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">species_rand_beta</span><span class="p">[</span><span class="n">Species</span><span class="p">]</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">genera_rand_beta</span><span class="p">[</span><span class="n">Genera</span><span class="p">]</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">mount_rand_beta</span><span class="p">[</span><span class="n">Mount</span><span class="p">])</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">Elevation</span><span class="w">
+
+</span><span class="c1"># Put this into a big data frame:
+</span><span class="n">berg</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">data.frame</span><span class="p">(</span><span class="n">Mount</span><span class="p">,</span><span class="w"> </span><span class="n">Genera</span><span class="p">,</span><span class="w"> </span><span class="n">Species</span><span class="p">,</span><span class="w"> </span><span class="n">Elevation</span><span class="p">,</span><span class="w"> </span><span class="n">Weight</span><span class="p">)</span><span class="w">
+</span><span class="n">head</span><span class="p">(</span><span class="n">berg</span><span class="p">)</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">##   Mount Genera Species   Elevation    Weight
+## 1     1      1      54  0.24974103 -1.104280
+## 2     1      1      56 -1.41061910 -5.014356
+## 3     1     15      29  0.49633511 11.954253
+## 4     1     15      65  0.08548281  9.427705
+## 5     1     10      27  0.85287980  6.672971
+## 6     1     12       1 -0.64909766 -4.222328</code></pre></figure>
+
+<p>Very crudely, let’s look at the overall pattern in the data, across all species.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">plot</span><span class="p">(</span><span class="n">berg</span><span class="o">$</span><span class="n">Weight</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">berg</span><span class="o">$</span><span class="n">Elevation</span><span class="p">,</span><span class="w"> </span><span class="n">pch</span><span class="o">=</span><span class="m">20</span><span class="p">,</span><span class="w"> </span><span class="n">xlab</span><span class="o">=</span><span class="s2">"Elevation"</span><span class="p">,</span><span class="w"> </span><span class="n">ylab</span><span class="o">=</span><span class="s2">"Weight"</span><span class="p">)</span></code></pre></figure>
+
+<p><img src="/figs/2016-9-10-hierarchical-data-management-and-visualization/all_data_plot-1.png" title="center" alt="center" style="display: block; margin: auto;" /></p>
+
+<p>Well, that’s a lot of variation, which makes it hard to see a clear pattern. Does the inherent hierarchy in the data obscure the body size - elevation relationship? What are the patterns among mountains? Among genera? Among species?</p>
+
+<h2 id="data-management-and-synthesis">Data Management and Synthesis</h2>
+
+<p>I’m going to focus on the <code class="highlighter-rouge">tidy</code> family of packages that can help us look at the raw data in more manageable chunks, and the <code class="highlighter-rouge">ggplot2</code> package</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w"> </span><span class="err">#</span><span class="w"> </span><span class="n">This</span><span class="w"> </span><span class="n">launches</span><span class="w"> </span><span class="n">all</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">best</span><span class="w"> </span><span class="n">packages</span></code></pre></figure>
+
+<p>Brad Boehmke does a great job highlighting the functions of the <code class="highlighter-rouge">dplyr</code> and <code class="highlighter-rouge">tidyr</code> packages in his <a href="https://rpubs.com/bradleyboehmke/data_wrangling">R publication</a>, and you should definitely read it. I’ll just highlight a few useful functions relevant to this dataset.</p>
+
+<p>Here’s a simple question: What’s the average body weight on each mountain? We could write a <code class="highlighter-rouge">for</code>-loop that partitions the data frame and then calculates an average, but yuck. Instead, use <code class="highlighter-rouge">dplyr</code> and the <code class="highlighter-rouge">summarize()</code> function.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">berg</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> </span><span class="c1"># This symbol pipes the result to the next function
+</span><span class="w">  </span><span class="n">group_by</span><span class="p">(</span><span class="n">Mount</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> </span><span class="c1"># Essentially cluster all the data for each mountain
+</span><span class="w">  </span><span class="n">summarize</span><span class="p">(</span><span class="n">Weight_avg</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mean</span><span class="p">(</span><span class="n">Weight</span><span class="p">),</span><span class="w"> </span><span class="n">Weight_sd</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sd</span><span class="p">(</span><span class="n">Weight</span><span class="p">))</span><span class="w"> </span><span class="err">#</span><span class="w"> </span><span class="n">Create</span><span class="w"> </span><span class="n">new</span><span class="w"> </span><span class="n">columns</span><span class="w"> </span><span class="n">that</span><span class="w"> </span><span class="n">summarize</span><span class="w"> </span><span class="n">Weight</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">## # A tibble: 10 × 3
+##     Mount Weight_avg Weight_sd
+##    &lt;fctr&gt;      &lt;dbl&gt;     &lt;dbl&gt;
+## 1       1  4.9636721  10.56421
+## 2       2  4.0290075  10.91626
+## 3       3  2.1202840  10.74022
+## 4       4  0.1002801  11.49470
+## 5       5  2.8156702  11.54933
+## 6       6  1.9584231  12.57281
+## 7       7  4.3874073  12.08083
+## 8       8  9.3074673  10.30616
+## 9       9  5.8189615  11.38677
+## 10     10  0.5453171  12.10775</code></pre></figure>
+
+<p>What about the mean weights for genera on different mountains?</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">berg</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+  </span><span class="n">group_by</span><span class="p">(</span><span class="n">Mount</span><span class="p">,</span><span class="w"> </span><span class="n">Genera</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> </span><span class="c1"># Cluster all the data for each mountain AND genus
+</span><span class="w">  </span><span class="n">summarize</span><span class="p">(</span><span class="n">Weight_avg</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mean</span><span class="p">(</span><span class="n">Weight</span><span class="p">),</span><span class="w"> </span><span class="n">Weight_sd</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sd</span><span class="p">(</span><span class="n">Weight</span><span class="p">))</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+  </span><span class="n">print</span><span class="p">(</span><span class="n">n</span><span class="o">=</span><span class="m">20</span><span class="p">)</span><span class="w"> </span><span class="err">#</span><span class="w"> </span><span class="n">Print</span><span class="w"> </span><span class="m">20</span><span class="w"> </span><span class="n">rows</span><span class="p">,</span><span class="w"> </span><span class="n">instead</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">default</span><span class="w"> </span><span class="m">10</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">## Source: local data frame [150 x 4]
+## Groups: Mount [?]
+## 
+##     Mount Genera  Weight_avg Weight_sd
+##    &lt;fctr&gt; &lt;fctr&gt;       &lt;dbl&gt;     &lt;dbl&gt;
+## 1       1      1  -2.7573401  3.307295
+## 2       1      2   8.5972132  4.181637
+## 3       1      3   2.9854196  2.335625
+## 4       1      4  21.0834808 11.479890
+## 5       1      5  15.7930094  4.096622
+## 6       1      6   7.4557598  4.285728
+## 7       1      7 -19.7661844  3.677072
+## 8       1      8  -4.3076198  4.861927
+## 9       1      9  15.5273034  4.934868
+## 10      1     10   0.7746332  4.438193
+## 11      1     11  -5.6647755  2.666068
+## 12      1     12   0.4239082  2.928701
+## 13      1     13   0.6039859  5.401860
+## 14      1     14  13.7291090  3.167712
+## 15      1     15  11.2012089  2.628091
+## 16      2      1  -3.3664910  1.907666
+## 17      2      2   8.9181201  3.174841
+## 18      2      3   1.2582477  2.300102
+## 19      2      4  20.8658468 10.419646
+## 20      2      5  15.1743084  3.173604
+## # ... with 130 more rows</code></pre></figure>
+
+<p>Perhaps simpler, we want to know how many species we found on each mountain.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">berg</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+  </span><span class="n">group_by</span><span class="p">(</span><span class="n">Mount</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+  </span><span class="n">summarize</span><span class="p">(</span><span class="n">species_N_perMount</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">length</span><span class="p">(</span><span class="n">unique</span><span class="p">(</span><span class="n">Species</span><span class="p">)))</span><span class="w"> </span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">## # A tibble: 10 × 2
+##     Mount species_N_perMount
+##    &lt;fctr&gt;              &lt;int&gt;
+## 1       1                 71
+## 2       2                 73
+## 3       3                 65
+## 4       4                 74
+## 5       5                 65
+## 6       6                 73
+## 7       7                 61
+## 8       8                 67
+## 9       9                 63
+## 10     10                 74</code></pre></figure>
+
+<h2 id="data-visualization">Data Visualization</h2>
+
+<p>We can even pipe these data frames right into <code class="highlighter-rouge">ggplot2</code>! Let’s take a look at the variability in average weights across the different mountains. Here we’ll average to the species level, because we have multiple individuals sampled from each species.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">berg</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+  </span><span class="n">group_by</span><span class="p">(</span><span class="n">Mount</span><span class="p">,</span><span class="w"> </span><span class="n">Species</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> </span><span class="c1"># Cluster all the data for each mountain AND SPECIES
+</span><span class="w">  </span><span class="n">summarize</span><span class="p">(</span><span class="n">Weight_avg</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mean</span><span class="p">(</span><span class="n">Weight</span><span class="p">))</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+  </span><span class="n">ggplot</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">Weight_avg</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="o">=</span><span class="n">Mount</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"> 
+  </span><span class="n">geom_boxplot</span><span class="p">()</span></code></pre></figure>
+
+<p><img src="/figs/2016-9-10-hierarchical-data-management-and-visualization/boxplot-1.png" alt="center" /></p>
+
+<p>Now, more relevant to the question at hand, what is the relationship between body size and elevation? First, is it consistent across mountains? Let’s look at this visually. We’ll use the <code class="highlighter-rouge">facet_wrap()</code> function from the <code class="highlighter-rouge">ggplot2</code> package.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">ggplot</span><span class="p">(</span><span class="n">berg</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">Elevation</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="o">=</span><span class="n">Weight</span><span class="p">))</span><span class="o">+</span><span class="w">
+  </span><span class="n">geom_point</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="m">20</span><span class="p">)</span><span class="o">+</span><span class="w">
+  </span><span class="n">facet_wrap</span><span class="p">(</span><span class="o">~</span><span class="n">Mount</span><span class="p">,</span><span class="w"> </span><span class="n">ncol</span><span class="o">=</span><span class="m">5</span><span class="p">)</span><span class="w"> </span><span class="err">#</span><span class="w"> </span><span class="n">We</span><span class="err">'</span><span class="n">ll</span><span class="w"> </span><span class="n">see</span><span class="w"> </span><span class="n">all</span><span class="w"> </span><span class="m">10</span><span class="w"> </span><span class="n">mountains</span><span class="w"> </span><span class="n">separately</span></code></pre></figure>
+
+<p><img src="/figs/2016-9-10-hierarchical-data-management-and-visualization/by_mount-1.png" alt="center" /></p>
+
+<p>Upon each mountain it seems like there isn’t a clear picture. What’s going on?</p>
+
+<p>Let’s use <code class="highlighter-rouge">facet_wrap()</code> to look at the each genus separately, and let’s highlight the species with different colors.</p>
+
+<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">ggplot</span><span class="p">(</span><span class="n">berg</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">Elevation</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="o">=</span><span class="n">Weight</span><span class="p">,</span><span class="w"> </span><span class="n">color</span><span class="o">=</span><span class="n">Species</span><span class="p">))</span><span class="o">+</span><span class="w">
+  </span><span class="n">geom_point</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="m">20</span><span class="p">)</span><span class="o">+</span><span class="w">
+  </span><span class="n">facet_wrap</span><span class="p">(</span><span class="o">~</span><span class="n">Genera</span><span class="p">,</span><span class="w"> </span><span class="n">ncol</span><span class="o">=</span><span class="m">5</span><span class="p">)</span><span class="o">+</span><span class="w">
+  </span><span class="n">guides</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="nb">F</span><span class="p">)</span><span class="w"> </span><span class="err">#</span><span class="w"> </span><span class="n">There</span><span class="w"> </span><span class="n">are</span><span class="w"> </span><span class="n">many</span><span class="w"> </span><span class="n">species</span><span class="p">,</span><span class="w"> </span><span class="n">so</span><span class="w"> </span><span class="n">suppress</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">color</span><span class="w"> </span><span class="n">legend</span></code></pre></figure>
+
+<p><img src="/figs/2016-9-10-hierarchical-data-management-and-visualization/by_genus-1.png" alt="center" /></p>
+
+<p>Now it becomes clear why Bergmann’s rule was being obscured when we looked across the whole data set and when we looked at mountains individually. There is a lot of variation among genera in the body size - elevation relationship. This makes sense, because we coded a large random variation in slope among genera.</p>
+
+<p>Go back and change the random variation in slopes and intercepts at the different hierarchical levels. How does this effect the overall pattern among mountains? This type of simulation can help you understand how much data you might need to collect in order to find statistically meaningful patterns.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="https://jrmihalj.github.io/tags/#data-science" class="page__taxonomy-item" rel="tag">data science</a><span class="sep">, </span>
+    
+      
+      
+      <a href="https://jrmihalj.github.io/tags/#dplyr" class="page__taxonomy-item" rel="tag">dplyr</a><span class="sep">, </span>
+    
+      
+      
+      <a href="https://jrmihalj.github.io/tags/#ggplot2" class="page__taxonomy-item" rel="tag">ggplot2</a><span class="sep">, </span>
+    
+      
+      
+      <a href="https://jrmihalj.github.io/tags/#mixed-models" class="page__taxonomy-item" rel="tag">mixed models</a><span class="sep">, </span>
+    
+      
+      
+      <a href="https://jrmihalj.github.io/tags/#nested-data" class="page__taxonomy-item" rel="tag">nested data</a><span class="sep">, </span>
+    
+      
+      
+      <a href="https://jrmihalj.github.io/tags/#r" class="page__taxonomy-item" rel="tag">r</a><span class="sep">, </span>
+    
+      
+      
+      <a href="https://jrmihalj.github.io/tags/#random-effects" class="page__taxonomy-item" rel="tag">random effects</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong> <time datetime="2016-09-10T00:00:00-05:00">September 10, 2016</time></p>
+        
+      </footer>
+
+      
+
+<section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=https://jrmihalj.github.io/hierarchical-data-management-and-visualization/" class="btn btn--twitter" title="Share on Twitter"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://jrmihalj.github.io/hierarchical-data-management-and-visualization/" class="btn btn--facebook" title="Share on Facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://plus.google.com/share?url=https://jrmihalj.github.io/hierarchical-data-management-and-visualization/" class="btn btn--google-plus" title="Share on Google Plus"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://jrmihalj.github.io/hierarchical-data-management-and-visualization/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+      
+
+
+    </div>
+
+    
+      
+
+<div class="page__comments">
+  <h4 class="page__comments-title">Leave a Comment</h4>
+  
+    <section id="disqus_thread"></section>
+  
+</div>
+    
+  </article>
+
+  
+  
+</div>
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+      <li><a href="http://github.com/jrmihalj"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="https://jrmihalj.github.io/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2016 Joseph R. Mihaljevic.</div>
+      </footer>
+    </div>
+
+    <script src="https://jrmihalj.github.io/assets/js/main.min.js"></script>
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69476851-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+  
+  <script type="text/javascript">
+  	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+  	var disqus_shortname = 'jrmihalj.github.io';
+
+  	/* * * DON'T EDIT BELOW THIS LINE * * */
+  	(function() {
+  		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  	})();
+
+  	/* * * DON'T EDIT BELOW THIS LINE * * */
+  	(function () {
+  		var s = document.createElement('script'); s.async = true;
+  		s.type = 'text/javascript';
+  		s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+  		(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  	}());
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+
+
+  </body>
+</html>
+
