@@ -1,13 +1,23 @@
 ---
-layout: single
-author_profile: false
+layout: archive
+author_profile: true
 # header:
 #   image: home_header.jpg
 #   caption: "*Glacier National Park*"
 permalink: /blog/
 ---
 
-# UNDER CONSTRUCTION
+
+{% include base_path %}
+{% capture written_year %}'None'{% endcapture %}
+{% for post in site.posts %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+    {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
+  {% include archive-single.html %}
+{% endfor %}
 
 I am working on updating and merging my old posts onto this GitHub/Jekyll format. 
 Please see my previous site's statistical blog posts, [here](https://sites.google.com/site/jrmihaljevic/statistics){:target="_blank"}.
