@@ -17,7 +17,7 @@ There's a lot of non-independence going on with this type of nested sampling. Yo
 This blog is focused on managing and visualizing hierarchical data. In a later post, I'll use this same generative example to illustrate proper statstical models to handle all of this non-independence.  
 
 
-{% highlight r %}
+{% highlight %}
 ## Sample sizes:
 mount_N <- 10 # Number of mountains sampled
 obs_N_perMount <- sample(c(100:300), size=mount_N, replace=T)
@@ -85,7 +85,7 @@ head(berg)
 
 Very crudely, let's look at the overall pattern in the data, across all species.
 
-{% highlight r %}
+{% highlight %}
 plot(berg$Weight ~ berg$Elevation, pch=20, xlab="Elevation", ylab="Weight")
 {% endhighlight %}
 
@@ -105,7 +105,7 @@ Brad Boehmke does a great job highlighting the functions of the `dplyr` and `tid
 
 Here's a simple question: What's the average body weight on each mountain? We could write a `for`-loop that partitions the data frame and then calculates an average, but yuck. Instead, use `dplyr` and the `summarize()` function.
 
-{% highlight r %}
+{% highlight %}
 berg %>% # This symbol pipes the result to the next function
   group_by(Mount) %>% # Essentially cluster all the data for each mountain
   summarize(Weight_avg = mean(Weight), Weight_sd = sd(Weight)) # Create new columns that summarize Weight
@@ -131,7 +131,7 @@ berg %>% # This symbol pipes the result to the next function
 
 What about the mean weights for genera on different mountains? 
 
-{% highlight r %}
+{% highlight %}
 berg %>% 
   group_by(Mount, Genera) %>% # Cluster all the data for each mountain AND genus
   summarize(Weight_avg = mean(Weight), Weight_sd = sd(Weight)) %>%
