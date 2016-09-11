@@ -1,9 +1,12 @@
 ---
-layout: post
+layout: single
 title: "Hierarchical Data Management and Visualization"
+output: html_document
 comments: true
 tags: [r, mixed models, random effects, nested data, data science, dplyr, ggplot2]
 ---
+
+# Hierarchical Data Management and Visualization
 
 This blog has a few goals. First, you'll see how to simulate a nested data set using the assumptions of a linear mixed-effects model. Then, you'll learn about *R* packages that can help to summarize and visualize similar hierarchical data in fast, reproducible, and easily generlizable ways. Finally, the user can change the simulation parameters to visualize the emergent effects of variability at different hierarchical scales. 
 
