@@ -86,7 +86,7 @@ head(berg)
 
 Very crudely, let's look at the overall pattern in the data, across all species.
 
-{% highlight %}
+{% highlight r%}
 plot(berg$Weight ~ berg$Elevation, pch=20, xlab="Elevation", ylab="Weight")
 {% endhighlight %}
 
