@@ -1,16 +1,82 @@
-.highlight {
-	background-color: #efefef;
-	font-family: $code-font;
-	@include font(12);
-	color: #333332;
-	margin-bottom: 1.5em;
-	@include rounded(4px);
-	pre {
-		position: relative;
-		margin: 0;
-		padding: 1em;
-	}
-	.lineno { padding-right: 24px; color: lighten(#333332,50);}
+/* ==========================================================================
+   Syntax highlighting
+   ========================================================================== */
+
+div.highlighter-rouge,
+figure.highlight {
+  position: relative;
+  margin-bottom: 1em;
+  font-family: $code-font;
+  font-size: $type-size-7;
+  line-height: 1.8;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background-color: $code-background-color;
+  box-shadow: $box-shadow;
+
+  &:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5em;
+    background-color: $lighter-gray;
+    content: "\f121";
+    font-family: "fontawesome" !important;
+    line-height: 1;
+    text-transform: none;
+    speak: none;
+  }
+
+  .highlight {
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+figure.highlight {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.highlight table {
+  font-size: 1em;
+  border: 0;
+
+  td {
+    padding: 5px;
+    border: 0;
+
+    // line numbers
+    &.gutter {
+      padding-right: 1em;
+      color: $light-gray;
+    }
+  }
+
+  pre {
+    margin: 0;
+  }
+}
+
+.highlight pre { width: 100%; }
+
+/*
+   Solarized Light
+   http://ethanschoonover.com/solarized
+
+   SOLARIZED HEX      ROLE
+   --------- -------- ------------------------------------------
+   base01    #586e75  body text / default code / primary content
+   base1     #93a1a1  comments / secondary content
+   base3     #fdf6e3  background
+   orange    #cb4b16  constants
+   red       #dc322f  regex, special keywords
+   blue      #22b3eb  reserved keywords
+   cyan      #2aa198  strings, numbers
+   green     #859900  operators, other keywords
+   ========================================================================== */
+.highlight { 
+  .lineno { padding-right: 24px; color: lighten(#333332,50);}
 	.hll { background-color: #ffffcc }
 	.c { color: #999988; font-style: italic } /* Comment */
 	.err { color: #a61717; background-color: #e3d2d2 } /* Error */

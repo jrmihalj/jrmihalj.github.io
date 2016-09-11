@@ -20,7 +20,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
   disqus:
-    shortname            : "jrmihalj.github.io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "jrmihalj-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -133,6 +133,7 @@ exclude:
   - README
   - tmp
   - .Rproj
+  - _site
   
 keep_files:
   - .git
