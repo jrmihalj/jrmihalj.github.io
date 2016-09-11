@@ -18,7 +18,7 @@ There's a lot of non-independence going on with this type of nested sampling. Yo
 This blog is focused on managing and visualizing hierarchical data. In a later post, I'll use this same generative example to illustrate proper statstical models to handle all of this non-independence.  
 
 
-{% highlight %}
+```
 ## Sample sizes:
 mount_N <- 10 # Number of mountains sampled
 obs_N_perMount <- sample(c(100:300), size=mount_N, replace=T)
@@ -70,7 +70,7 @@ Weight <- Weight + (beta_mean + species_rand_beta[Species] + genera_rand_beta[Ge
 # Put this into a big data frame:
 berg <- data.frame(Mount, Genera, Species, Elevation, Weight)
 head(berg)
-{% endhighlight %}
+```
 
 
 
@@ -86,9 +86,9 @@ head(berg)
 
 Very crudely, let's look at the overall pattern in the data, across all species.
 
-{% highlight r%}
+```
 plot(berg$Weight ~ berg$Elevation, pch=20, xlab="Elevation", ylab="Weight")
-{% endhighlight %}
+```
 
 <img src="/figs/2016-9-10-hierarchical-data-management-and-visualization/all_data_plot-1.png" title="center" alt="center" style="display: block; margin: auto;" />
 
