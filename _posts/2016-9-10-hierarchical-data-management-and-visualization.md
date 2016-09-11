@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Hierarchical Data Management and Visualization"
 output: html_document
 tags: [r, mixed models, random effects, nested data, data science, dplyr, ggplot2]
@@ -88,7 +87,7 @@ head(berg)
 Very crudely, let's look at the overall pattern in the data, across all species.
 
 {% highlight r %}
-#plot(berg$Weight ~ berg$Elevation, pch=20, xlab="Elevation", ylab="Weight")
+plot(berg$Weight ~ berg$Elevation, pch=20, xlab="Elevation", ylab="Weight")
 {% endhighlight %}
 
 
