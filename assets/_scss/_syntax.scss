@@ -7,7 +7,7 @@ figure.highlight {
   position: relative;
   margin-bottom: 1em;
   font-family: $monospace;
-  font-size: $type-size-7;
+  font-size: $type-size-3;
   line-height: 1.7;
   border: 1px solid $border-color;
   border-radius: $border-radius;
@@ -58,7 +58,7 @@ figure.highlight {
   }
 }
 
-.highlight pre { width: 100%; }
+.highlight pre { width: 50%; }
 
 /*
    Solarized Light
