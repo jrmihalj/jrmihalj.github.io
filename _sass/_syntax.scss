@@ -1,11 +1,14 @@
+/* ==========================================================================
+   Syntax highlighting
+   ========================================================================== */
 
 div.highlighter-rouge,
 figure.highlight {
   position: relative;
   margin-bottom: 1em;
-  font-family: $helvetica;
-  font-size: 0.6;
-  line-height: 1.2;
+  font-family: $garamond;
+  font-size: 8;
+  line-height: 0.7;
   border: 1px solid $border-color;
   border-radius: $border-radius;
   background-color: $code-background-color;
@@ -18,8 +21,8 @@ figure.highlight {
     padding: 0.5em;
     background-color: $lighter-gray;
     content: "\f121";
-    font-family: $helvetica;
-    line-height: 0.8;
+    font-family: "fontawesome" !important;
+    line-height: 1;
     text-transform: none;
     speak: none;
   }
@@ -36,7 +39,7 @@ figure.highlight {
 }
 
 .highlight table {
-  font-size: 1em;
+  font-size: 0.6em;
   border: 0;
 
   td {
@@ -57,6 +60,21 @@ figure.highlight {
 
 .highlight pre { width: 100%; }
 
+/*
+   Solarized Light
+   http://ethanschoonover.com/solarized
+
+   SOLARIZED HEX      ROLE
+   --------- -------- ------------------------------------------
+   base01    #586e75  body text / default code / primary content
+   base1     #93a1a1  comments / secondary content
+   base3     #fdf6e3  background
+   orange    #cb4b16  constants
+   red       #dc322f  regex, special keywords
+   blue      #22b3eb  reserved keywords
+   cyan      #2aa198  strings, numbers
+   green     #859900  operators, other keywords
+   ========================================================================== */
 
 .highlight .c { color: #93a1a1 } /* Comment */
 .highlight .err { color: #586e75 } /* Error */

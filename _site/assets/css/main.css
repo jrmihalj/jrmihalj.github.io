@@ -520,19 +520,22 @@ tr, td, th { vertical-align: middle; }
 .page__footer-follow li + li:before { content: ""; padding-right: 5px; }
 .page__footer-follow a { padding-right: 10px; font-weight: bold; }
 
-div.highlighter-rouge, figure.highlight { position: relative; margin-bottom: 1em; font-family: Helvetica, "Helvetica Neue", Arial, sans-serif; font-size: 0.6; line-height: 1.2; border: 1px solid #f2f3f3; border-radius: 4px; background-color: #fafafa; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125); }
-div.highlighter-rouge:before, figure.highlight:before { position: absolute; top: 0; right: 0; padding: 0.5em; background-color: #f2f3f3; content: "\f121"; font-family: Helvetica, "Helvetica Neue", Arial, sans-serif; line-height: 0.8; text-transform: none; speak: none; }
+/* ========================================================================== Syntax highlighting ========================================================================== */
+div.highlighter-rouge, figure.highlight { position: relative; margin-bottom: 1em; font-family: Garamond, serif; font-size: 8; line-height: 0.7; border: 1px solid #f2f3f3; border-radius: 4px; background-color: #fafafa; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125); }
+div.highlighter-rouge:before, figure.highlight:before { position: absolute; top: 0; right: 0; padding: 0.5em; background-color: #f2f3f3; content: "\f121"; font-family: "fontawesome" !important; line-height: 1; text-transform: none; speak: none; }
 div.highlighter-rouge .highlight, figure.highlight .highlight { margin: 0; padding: 1em; }
 
 figure.highlight { padding-left: 1em; padding-right: 1em; }
 
-.highlight table { font-size: 1em; border: 0; }
+.highlight table { font-size: 0.6em; border: 0; }
 .highlight table td { padding: 5px; border: 0; }
 .highlight table td.gutter { padding-right: 1em; color: #bdc1c4; }
 .highlight table pre { margin: 0; }
 
 .highlight pre { width: 100%; }
 
+/* Solarized Light http://ethanschoonover.com/solarized
+ SOLARIZED HEX      ROLE --------- -------- ------------------------------------------ base01    #586e75  body text / default code / primary content base1     #93a1a1  comments / secondary content base3     #fdf6e3  background orange    #cb4b16  constants red       #dc322f  regex, special keywords blue      #22b3eb  reserved keywords cyan      #2aa198  strings, numbers green     #859900  operators, other keywords ========================================================================== */
 .highlight .c { color: #93a1a1; }
 
 /* Comment */
