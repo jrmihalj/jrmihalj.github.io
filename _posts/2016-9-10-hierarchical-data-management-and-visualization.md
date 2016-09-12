@@ -1,8 +1,6 @@
 ---
-layout: single
 title: "Hierarchical Data Management and Visualization"
-output: html_document
-tags: [r, mixed models, random effects, nested data, data science, dplyr, ggplot2]
+output:html_document: default
 ---
 
 This blog has a few goals. First, you'll see how to simulate a nested data set using the assumptions of a linear mixed-effects model. Then, you'll learn about *R* packages that can help to summarize and visualize similar hierarchical data in fast, reproducible, and easily generlizable ways. Finally, the user can change the simulation parameters to visualize the emergent effects of variability at different hierarchical scales. 
@@ -35,7 +33,7 @@ Genera <- factor(sample(c(1:genera_N), size=obs_N, replace=T))
 Species <- factor(sample(c(1:species_N), size=obs_N, replace=T))
   
 ## Now assign parameters that determine the relationship between elevation and body size
-beta_mean <- 2.0 # Slope: Body size declines with elevation
+beta_mean <- 2.0 # Slope: Body size increases with elevation
 alpha_mean <- 0.0 # Intercept: Mean body size (centered and scaled)
 
 # Random effects on slope
@@ -74,15 +72,14 @@ head(berg)
 
 
 
-
 {% highlight text %}
 ##   Mount Genera Species   Elevation    Weight
-## 1     1      1      54  0.24974103 -1.104280
-## 2     1      1      56 -1.41061910 -5.014356
-## 3     1     15      29  0.49633511 11.954253
-## 4     1     15      65  0.08548281  9.427705
-## 5     1     10      27  0.85287980  6.672971
-## 6     1     12       1 -0.64909766 -4.222328
+## 1     1      2      13 -0.11214172 18.419632
+## 2     1      8      50  0.84987820  7.974134
+## 3     1      7      63 -1.84140031 12.169132
+## 4     1     13      24 -0.06470968 18.033449
+## 5     1      6      47 -3.26612214 -4.809293
+## 6     1      4      40 -0.75520574  5.805547
 {% endhighlight %}
 
 Very crudely, let's look at the overall pattern in the data, across all species.
@@ -90,7 +87,6 @@ Very crudely, let's look at the overall pattern in the data, across all species.
 {% highlight r %}
 plot(berg$Weight ~ berg$Elevation, pch=20, xlab="Elevation", ylab="Weight")
 {% endhighlight %}
-
 
 <img src="/figs/2016-9-10-hierarchical-data-management-and-visualization/all_data_plot-1.png" title="center" alt="center" style="display: block; margin: auto;" />
 
@@ -104,11 +100,35 @@ I'm going to focus on the `tidy` family of packages that can help us look at the
 library(tidyverse) # This launches all the best packages
 {% endhighlight %}
 
+
+
+{% highlight text %}
+## Loading tidyverse: ggplot2
+## Loading tidyverse: tibble
+## Loading tidyverse: tidyr
+## Loading tidyverse: readr
+## Loading tidyverse: purrr
+## Loading tidyverse: dplyr
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Conflicts with tidy packages ----------------------------------------------
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## filter(): dplyr, stats
+## lag():    dplyr, stats
+{% endhighlight %}
+
 Brad Boehmke does a great job highlighting the functions of the `dplyr` and `tidyr` packages in his [R publication](https://rpubs.com/bradleyboehmke/data_wrangling), and you should definitely read it. I'll just highlight a few useful functions relevant to this dataset. 
 
 Here's a simple question: What's the average body weight on each mountain? We could write a `for`-loop that partitions the data frame and then calculates an average, but yuck. Instead, use `dplyr` and the `summarize()` function.
 
-{% highlight r%}
+{% highlight r %}
 berg %>% # This symbol pipes the result to the next function
   group_by(Mount) %>% # Essentially cluster all the data for each mountain
   summarize(Weight_avg = mean(Weight), Weight_sd = sd(Weight)) # Create new columns that summarize Weight
@@ -118,23 +138,23 @@ berg %>% # This symbol pipes the result to the next function
 
 {% highlight text %}
 ## # A tibble: 10 × 3
-##     Mount Weight_avg Weight_sd
-##    <fctr>      <dbl>     <dbl>
-## 1       1  4.9636721  10.56421
-## 2       2  4.0290075  10.91626
-## 3       3  2.1202840  10.74022
-## 4       4  0.1002801  11.49470
-## 5       5  2.8156702  11.54933
-## 6       6  1.9584231  12.57281
-## 7       7  4.3874073  12.08083
-## 8       8  9.3074673  10.30616
-## 9       9  5.8189615  11.38677
-## 10     10  0.5453171  12.10775
+##     Mount  Weight_avg Weight_sd
+##    <fctr>       <dbl>     <dbl>
+## 1       1  2.75987283  8.980855
+## 2       2  1.84340717  8.879757
+## 3       3  0.34929020  9.655934
+## 4       4 -3.99058099  9.603364
+## 5       5  1.04847069  8.622723
+## 6       6  3.36407484  8.667651
+## 7       7 -2.16678716  9.902605
+## 8       8  0.03388973  8.597225
+## 9       9 -1.21115250  8.011652
+## 10     10  0.25712038  8.938851
 {% endhighlight %}
 
 What about the mean weights for genera on different mountains? 
 
-{% highlight r%}
+{% highlight r %}
 berg %>% 
   group_by(Mount, Genera) %>% # Cluster all the data for each mountain AND genus
   summarize(Weight_avg = mean(Weight), Weight_sd = sd(Weight)) %>%
@@ -149,26 +169,26 @@ berg %>%
 ## 
 ##     Mount Genera  Weight_avg Weight_sd
 ##    <fctr> <fctr>       <dbl>     <dbl>
-## 1       1      1  -2.7573401  3.307295
-## 2       1      2   8.5972132  4.181637
-## 3       1      3   2.9854196  2.335625
-## 4       1      4  21.0834808 11.479890
-## 5       1      5  15.7930094  4.096622
-## 6       1      6   7.4557598  4.285728
-## 7       1      7 -19.7661844  3.677072
-## 8       1      8  -4.3076198  4.861927
-## 9       1      9  15.5273034  4.934868
-## 10      1     10   0.7746332  4.438193
-## 11      1     11  -5.6647755  2.666068
-## 12      1     12   0.4239082  2.928701
-## 13      1     13   0.6039859  5.401860
-## 14      1     14  13.7291090  3.167712
-## 15      1     15  11.2012089  2.628091
-## 16      2      1  -3.3664910  1.907666
-## 17      2      2   8.9181201  3.174841
-## 18      2      3   1.2582477  2.300102
-## 19      2      4  20.8658468 10.419646
-## 20      2      5  15.1743084  3.173604
+## 1       1      1  -4.4544981  3.557380
+## 2       1      2  18.5225092  2.642183
+## 3       1      3   3.5370207  3.253391
+## 4       1      4   1.7430990  2.816731
+## 5       1      5  -9.2871199  3.045857
+## 6       1      6   6.7972462  4.148961
+## 7       1      7  13.2109473  3.133184
+## 8       1      8   4.2826290  3.119941
+## 9       1      9  -1.9444854  2.278156
+## 10      1     10   3.3850735  3.412358
+## 11      1     11   0.2992717  1.924521
+## 12      1     12 -13.4347891  4.312500
+## 13      1     13  15.4608036  2.652208
+## 14      1     14   7.5510452  3.584307
+## 15      1     15  13.9542854  3.228134
+## 16      2      1  -6.2408338  3.316820
+## 17      2      2  15.6266652  2.730077
+## 18      2      3   3.4377517  3.139546
+## 19      2      4  -0.7654253  3.229899
+## 20      2      5 -12.2088844  3.346544
 ## # ... with 130 more rows
 {% endhighlight %}
 
@@ -186,16 +206,16 @@ berg %>%
 ## # A tibble: 10 × 2
 ##     Mount species_N_perMount
 ##    <fctr>              <int>
-## 1       1                 71
-## 2       2                 73
-## 3       3                 65
-## 4       4                 74
-## 5       5                 65
-## 6       6                 73
-## 7       7                 61
-## 8       8                 67
+## 1       1                 65
+## 2       2                 62
+## 3       3                 55
+## 4       4                 66
+## 5       5                 57
+## 6       6                 64
+## 7       7                 60
+## 8       8                 65
 ## 9       9                 63
-## 10     10                 74
+## 10     10                 66
 {% endhighlight %}
 
 ## Data Visualization
