@@ -98,7 +98,8 @@ Well, that's a lot of variation, which makes it hard to see a clear pattern. Doe
 I'm going to focus on the `tidy` family of packages that can helpu us dissect and summarize the raw data in simple and reproducible ways, and we'll use the `ggplot2` package for visualization.
 
 {% highlight r %}
-library(tidyverse) # This launches all of the 'tidy' packages.
+# Launch all of the 'tidy' packages.
+library(tidyverse)
 {% endhighlight %}
 
 
@@ -118,9 +119,13 @@ Brad Boehmke does a great job of highlighting the functions of the `dplyr` and `
 Here's a simple question: What are the average body weights and their standard deviations on each mountain? We could write a `for`-loop that partitions the data frame and then calculates and stores these summary statistics, but that is pretty inefficient and prone to errors. Instead, use `dplyr` and the `summarize()` function.
 
 {% highlight r %}
-berg %>% # This symbol pipes the result to the next function
-  group_by(Mount) %>% # Essentially cluster all the data for each mountain
-  summarize(Weight_avg = mean(Weight), Weight_sd = sd(Weight)) # Create new columns that summarize Weight
+# The '%>%' symbol pipes the object on the left to the function on the right
+# 'group_by() clusters all of the data for the given variables
+# 'summarize()' creates new columns and applies functions to available variables
+
+berg %>% 
+  group_by(Mount) %>% 
+  summarize(Weight_avg = mean(Weight), Weight_sd = sd(Weight))
 {% endhighlight %}
 
 
@@ -144,10 +149,13 @@ berg %>% # This symbol pipes the result to the next function
 What about the mean weights of genera on different mountains? 
 
 {% highlight r %}
+# Now cluster by Mount and Genera
+# print() can be used to specify how many columns to print to screen
+
 berg %>% 
-  group_by(Mount, Genera) %>% # Cluster all the data for each mountain AND genus
+  group_by(Mount, Genera) %>% 
   summarize(Weight_avg = mean(Weight), Weight_sd = sd(Weight)) %>%
-  print(n=20) # Print 20 rows, instead of the default 10
+  print(n=20) 
 {% endhighlight %}
 
 
@@ -213,10 +221,13 @@ We can even pipe these data frames right into `ggplot2`! Let's take a look at th
 
 
 {% highlight r %}
+# Cluster by Mount and Species
+# Pipe to ggplot(), and the data frame argument will be implied
+
 berg %>% 
-  group_by(Mount, Species) %>% # Cluster all the data for each mountain AND species
+  group_by(Mount, Species) %>% 
   summarize(Weight_avg = mean(Weight)) %>%
-  ggplot(aes(y=Weight_avg, x=Mount)) + # The data frame is piped in and implied
+  ggplot(aes(y=Weight_avg, x=Mount)) +
   geom_boxplot()
 {% endhighlight %}
 
@@ -227,7 +238,7 @@ Now, more relevant to the question at hand, what is the relationship between bod
 {% highlight r %}
 ggplot(berg, aes(x=Elevation, y=Weight))+
   geom_point(shape=20)+
-  facet_wrap(~Mount, ncol=5) # We'll see all 10 mountains separately
+  facet_wrap(~Mount, ncol=5)
 {% endhighlight %}
 
 ![center](/figs/2016-9-10-hierarchical-data-management-and-visualization/by_mount-1.png)
@@ -237,10 +248,12 @@ It would appear that Bergmann's rule does not apply to these mountains. What's g
 Let's use `facet_wrap()` to look at the each genus separately, and let's highlight the species with different colors. 
 
 {% highlight r %}
+# We'll suppress the Species legend, because we have so many species 'guides(color=F)'
+
 ggplot(berg, aes(x=Elevation, y=Weight, color=Species))+
   geom_point(shape=20)+
   facet_wrap(~Genera, ncol=5)+
-  guides(color=F) # There are many species, so we'll suppress the color legend
+  guides(color=F)
 {% endhighlight %}
 
 ![center](/figs/2016-9-10-hierarchical-data-management-and-visualization/by_genus-1.png)
