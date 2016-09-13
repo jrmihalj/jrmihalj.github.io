@@ -11,9 +11,9 @@ Working with hierarchical data can be a pain, but there is a suite of *R* packag
 
 Hyperbole aside, let's start by generating some realistic, nested data. We'll be testing Bergmann's rule that body size increases with elevation (as a proxy for temperature) by sampling along different mountains. We'll sample multiple individuals of many species, representing many genera, sampled across multiple mountains. Lots of nestedness here. 
 
-There's a lot of non-independence going on with this type of nested sampling. You'd expect body size to vary more among genera, than among species within a given genera, and there is probably variation among mountains. This all effects the intercept of body size. There might be similar non-independence in the relationship between body size and elevation (i.e. the slope). We'll code this type of non-independence as random effects on the interecept and slope, below. 
+There's a lot of non-independence going on with this type of nested sampling. You'd expect body size to vary more among genera than among species within a given genera, and there is probably variation among mountains. This all affects the intercept of body size (i.e. the average body size within groups). There might be similar non-independence in the relationship between body size and elevation (i.e. the slope). We'll code this type of non-independence as random effects on the interecept and slope, below. 
 
-This blog is focused on managing and visualizing hierarchical data. In a later post, I'll use this same generative example to illustrate proper statstical models to handle all of this non-independence.  
+This blog is focused on managing and visualizing hierarchical data. In a later post, I'll use a very similar generative example to illustrate proper statistical models to handle all of this non-independence.  
 
 
 {% highlight r %}
@@ -34,7 +34,7 @@ Species <- factor(sample(c(1:species_N), size=obs_N, replace=T))
   
 ## Now assign parameters that determine the relationship between elevation and body size
 beta_mean <- 2.0 # Slope: Body size increases with elevation
-alpha_mean <- 0.0 # Intercept: Mean body size (centered and scaled)
+alpha_mean <- 0.0 # Intercept: Mean body size (centered)
 
 # Random effects on slope
 species_sd_beta <- 0.5 
@@ -63,9 +63,10 @@ Weight <- vector(mode="numeric", length=obs_N)
 # Add the intercept with random effects:
 Weight <- alpha_mean + species_rand_alpha[Species] + genera_rand_alpha[Genera] + mount_rand_alpha[Mount]
 # Add the slope with random effects:
-Weight <- Weight + (beta_mean + species_rand_beta[Species] + genera_rand_beta[Genera] + mount_rand_beta[Mount]) * Elevation
+Weight <- Weight + 
+          (beta_mean + species_rand_beta[Species] + genera_rand_beta[Genera] + mount_rand_beta[Mount]) * Elevation
 
-# Put this into a big data frame:
+# Put this into a data frame:
 berg <- data.frame(Mount, Genera, Species, Elevation, Weight)
 head(berg)
 {% endhighlight %}
@@ -82,7 +83,7 @@ head(berg)
 ## 6     1      4      40 -0.75520574  5.805547
 {% endhighlight %}
 
-Very crudely, let's look at the overall pattern in the data, across all species.
+Very crudely, let's look at the overall pattern in the data.
 
 {% highlight r %}
 plot(berg$Weight ~ berg$Elevation, pch=20, xlab="Elevation", ylab="Weight")
@@ -94,10 +95,10 @@ Well, that's a lot of variation, which makes it hard to see a clear pattern. Doe
 
 ## Data Management and Synthesis
 
-I'm going to focus on the `tidy` family of packages that can help us look at the raw data in more manageable chunks, and the `ggplot2` package
+I'm going to focus on the `tidy` family of packages that can helpu us dissect and summarize the raw data in simple and reproducible ways, and we'll use the `ggplot2` package for visualization.
 
 {% highlight r %}
-library(tidyverse) # This launches all the best packages
+library(tidyverse) # This launches all of the 'tidy' packages.
 {% endhighlight %}
 
 
@@ -112,21 +113,9 @@ library(tidyverse) # This launches all the best packages
 {% endhighlight %}
 
 
+Brad Boehmke does a great job of highlighting the functions of the `dplyr` and `tidyr` packages in his [R publication](https://rpubs.com/bradleyboehmke/data_wrangling), and you should definitely read it. I'll just highlight a few useful functions relevant to this dataset. 
 
-{% highlight text %}
-## Conflicts with tidy packages ----------------------------------------------
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## filter(): dplyr, stats
-## lag():    dplyr, stats
-{% endhighlight %}
-
-Brad Boehmke does a great job highlighting the functions of the `dplyr` and `tidyr` packages in his [R publication](https://rpubs.com/bradleyboehmke/data_wrangling), and you should definitely read it. I'll just highlight a few useful functions relevant to this dataset. 
-
-Here's a simple question: What's the average body weight on each mountain? We could write a `for`-loop that partitions the data frame and then calculates an average, but yuck. Instead, use `dplyr` and the `summarize()` function.
+Here's a simple question: What are the average body weights and their standard deviations on each mountain? We could write a `for`-loop that partitions the data frame and then calculates and stores these summary statistics, but that is pretty inefficient and prone to errors. Instead, use `dplyr` and the `summarize()` function.
 
 {% highlight r %}
 berg %>% # This symbol pipes the result to the next function
@@ -152,7 +141,7 @@ berg %>% # This symbol pipes the result to the next function
 ## 10     10  0.25712038  8.938851
 {% endhighlight %}
 
-What about the mean weights for genera on different mountains? 
+What about the mean weights of genera on different mountains? 
 
 {% highlight r %}
 berg %>% 
@@ -192,7 +181,7 @@ berg %>%
 ## # ... with 130 more rows
 {% endhighlight %}
 
-Perhaps simpler, we want to know how many species we found on each mountain.
+Perhaps simpler, we want to know how many species were found on each mountain.
 
 {% highlight r %}
 berg %>% 
@@ -220,14 +209,14 @@ berg %>%
 
 ## Data Visualization
 
-We can even pipe these data frames right into `ggplot2`! Let's take a look at the variability in average weights across the different mountains. Here we'll average to the species level, because we have multiple individuals sampled from each species.
+We can even pipe these data frames right into `ggplot2`! Let's take a look at the variability in average weights across the different mountains. Here we'll average to the species level, because we have multiple individuals sampled from each species, and we'll summarize these species-level averages using boxplots.
 
 
 {% highlight r %}
 berg %>% 
-  group_by(Mount, Species) %>% # Cluster all the data for each mountain AND SPECIES
+  group_by(Mount, Species) %>% # Cluster all the data for each mountain AND species
   summarize(Weight_avg = mean(Weight)) %>%
-  ggplot(aes(y=Weight_avg, x=Mount)) + 
+  ggplot(aes(y=Weight_avg, x=Mount)) + # The data frame is piped in and implied
   geom_boxplot()
 {% endhighlight %}
 
@@ -243,7 +232,7 @@ ggplot(berg, aes(x=Elevation, y=Weight))+
 
 ![center](/figs/2016-9-10-hierarchical-data-management-and-visualization/by_mount-1.png)
 
-Upon each mountain it seems like there isn't a clear picture. What's going on? 
+It would appear that Bergmann's rule does not apply to these mountains. What's going on? 
 
 Let's use `facet_wrap()` to look at the each genus separately, and let's highlight the species with different colors. 
 
@@ -251,11 +240,11 @@ Let's use `facet_wrap()` to look at the each genus separately, and let's highlig
 ggplot(berg, aes(x=Elevation, y=Weight, color=Species))+
   geom_point(shape=20)+
   facet_wrap(~Genera, ncol=5)+
-  guides(color=F) # There are many species, so suppress the color legend
+  guides(color=F) # There are many species, so we'll suppress the color legend
 {% endhighlight %}
 
 ![center](/figs/2016-9-10-hierarchical-data-management-and-visualization/by_genus-1.png)
 
 Now it becomes clear why Bergmann's rule was being obscured when we looked across the whole data set and when we looked at mountains individually. There is a lot of variation among genera in the body size - elevation relationship. This makes sense, because we coded a large random variation in slope among genera. 
 
-Go back and change the random variation in slopes and intercepts at the different hierarchical levels. How does this effect the overall pattern among mountains? This type of simulation can help you understand how much data you might need to collect in order to find statistically meaningful patterns. 
+Go back and change the random variation in slopes and intercepts at the different hierarchical levels. How does this affect the overall pattern among mountains? This type of simulation can help you understand how much data you might need to collect in order to find statistically meaningful patterns. 
