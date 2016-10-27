@@ -300,6 +300,6 @@ ggplot(df_sample, aes(x=sample_time, y=sample_prop)) +
 
 <img src="/figs/2016-10-27-estimating-transmission-by-fitting-mechanistic-models-in-Stan/model_validation-1.png" title="center" alt="center" style="display: block; margin: auto;" />
 
-Our model does a good job estimating the parameters and predicting unobserved data. 
+The *Stan* model does a good job estimating the parameters and predicting unobserved data. 
 
-
+Admittedly, this "simple" approach will not work in some cases. For example, I cannot think of a good way to fit systems of stochastic differential equations, where the likelihood has to be averaged across many realizations of the system. Or, for models that have to estimate the number of, say, exposed or infected classes, which is an integer. *Stan* does not allow integer parameters, at least not yet. However, there are probably smarter people that could figure this all out.
