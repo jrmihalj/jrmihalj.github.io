@@ -4,12 +4,12 @@ output:html_document: default
 ---
 
 Mechanistic disease models are at the heart of disease ecology and have generated fundamental biological insights, ranging from our understanding of disease-density thresholds to the influence of host heterogeneity on the spread of disease. The definition of a mechanistic model is actually debated quite a lot, but here I am referring specifically to systems of ordinary differential equations (ODEs) that can capture the important non-linearities and temporal dynamics of infection, which are founded on the idea of transmission from infectious hosts to susceptible hosts. This is probably the simplest example:
-\begin{align}
 
+$$\begin{align}
 \frac{dS}{dt} & = - \beta S I \\
 \frac{dI}{dt} & = \beta S I - \gamma I \\
+\end{align}$$
 
-\end{align}
 In this simple $SI$ model, $S$ and $I$ represent the fraction of susceptible and infected hosts, respectively, where $S + I = 1$. $\beta$ represents the frequency-dependent transmission, where $\beta S I$ informs the rate at which new individuals become infected, as a proportion of the total population. And, finally, $\gamma$ is the rate of death due to infection (i.e. virulence), which can be known as the removal rate.
 
 Because mechanistic models like this one do such a good job at capturing the non-linear dynamics of infection, they are often used as predictive tools to inform, for instance, how vaccination or climate change or (insert your favorite meme) might influence disease epidemics. However, it is rare to see these models parameterized in rigorous ways, likely because this can involve complicated experiments that might be infeasible, say, in human systems. Moreover, non-linear model-fitting routines can be computationally costly and might lie outside the expertise of field ecologists who collect the necessary data. 
