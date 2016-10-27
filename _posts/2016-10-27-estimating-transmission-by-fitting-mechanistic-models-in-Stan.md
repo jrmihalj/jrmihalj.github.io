@@ -7,7 +7,7 @@ Mechanistic disease models are at the heart of disease ecology and have generate
 
 $$\begin{align}
 \frac{dS}{dt} & = - \beta S I \\
-\frac{dI}{dt} & = \beta S I - \gamma I 
+\frac{dI}{dt} & = \beta S I - \gamma I \\
 \frac{dR}{dt} & = \gamma I
 \end{align}$$
 
