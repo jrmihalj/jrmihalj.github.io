@@ -5,8 +5,9 @@ output:html_document: default
 
 Mechanistic disease models are at the heart of disease ecology and have generated fundamental biological insights, ranging from our understanding of disease-density thresholds to the influence of host heterogeneity on the spread of disease. The definition of a mechanistic model is actually debated quite a lot, but here I am referring specifically to systems of ordinary differential equations (ODEs) that can capture the important non-linearities and temporal dynamics of infection, which are founded on the idea of transmission from infectious hosts to susceptible hosts. This is probably the simplest example:
 \begin{align}
-\frac{dS}{dt} &= - \beta S I \\
-\frac{dI}{dt} &= \beta S I - \gamma I
+\frac{dS}{dt} & = - \beta S I \\
+
+\frac{dI}{dt} & = \beta S I - \gamma I
 \end{align}
 In this simple $SI$ model, $S$ and $I$ represent the fraction of susceptible and infected hosts, respectively, where $S + I = 1$. $\beta$ represents the frequency-dependent transmission, where $\beta S I$ informs the rate at which new individuals become infected, as a proportion of the total population. And, finally, $\gamma$ is the rate of death due to infection (i.e. virulence), which can be known as the removal rate.
 
