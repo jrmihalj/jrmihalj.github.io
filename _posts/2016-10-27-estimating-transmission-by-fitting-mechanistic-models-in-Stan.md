@@ -8,7 +8,7 @@ Mechanistic disease models are at the heart of disease ecology and have generate
 $$\begin{align}
 \frac{dS}{dt} & = - \beta S I \\
 \frac{dI}{dt} & = \beta S I - \gamma I 
-\frac{dI}{dt} & = \gamma I
+\frac{dR}{dt} & = \gamma I
 \end{align}$$
 
 In this simple $SIR$ model, $S$, $I$, and $R$ represent the fraction of susceptible, infected, and removed hosts, respectively, where $S + I + R = 1$. $\beta$ represents the frequency-dependent transmission, where $\beta S I$ informs the rate at which new individuals become infected, as a proportion of the total population. And, finally, $\gamma$ is the rate of death due to infection (i.e. virulence). In some models this is considered the recovery or immune rate. I'm assuming, among other things, that there is no recovery, only death due to infection. 
