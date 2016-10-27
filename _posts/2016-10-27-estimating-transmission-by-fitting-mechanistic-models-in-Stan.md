@@ -130,7 +130,7 @@ functions {
             real[] x_r,
             int[] x_i) {
       
-      real dydt[2];
+      real dydt[3];
       
       dydt[1] = - params[1] * y[1] * y[2];
       dydt[2] = params[1] * y[1] * y[2] - params[2] * y[2];
