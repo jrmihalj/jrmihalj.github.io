@@ -92,7 +92,7 @@ legend(x = 30, y = 0.8, legend = c("Susceptible", "Infected"),
 
 <img src="/figs/2016-10-27-estimating-transmission-by-fitting-mechanistic-models-in-Stan/data_generation-1.png" title="center" alt="center" style="display: block; margin: auto;" />
 
-This gives us the epidemic pattern. This represents a particularly virulent pathogen, where by the end of 50 days, most of the population has been infected and has died. This gives us the "true" dynamics of the system, from which we can simulate data that an ecologist might collect. For instance, an ecologist could go to the field and sample a given number of individuals from the population and figure out how many are infected. This could be repeated a number of times throughout the epidemic period, as follows:
+The parameters represent a particularly virulent pathogen, where by the end of 50 days, most of the population has been infected and has died. This gives us the "true" epidemic dynamics of the system, from which we can simulate data that an ecologist might collect. For instance, an ecologist could go to the field and sample a given number of individuals from the population and figure out how many are infected. This could be repeated a number of times throughout the epidemic period, as follows:
 
 
 {% highlight r %}
