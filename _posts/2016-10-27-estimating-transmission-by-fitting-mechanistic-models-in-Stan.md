@@ -7,18 +7,19 @@ Mechanistic disease models are at the heart of disease ecology and have generate
 
 $$\begin{align}
 \frac{dS}{dt} & = - \beta S I \\
-\frac{dI}{dt} & = \beta S I - \gamma I \\
+\frac{dI}{dt} & = \beta S I - \gamma I 
+\frac{dI}{dt} & = \gamma I
 \end{align}$$
 
-In this simple $SI$ model, $S$ and $I$ represent the fraction of susceptible and infected hosts, respectively, where $S + I = 1$. $\beta$ represents the frequency-dependent transmission, where $\beta S I$ informs the rate at which new individuals become infected, as a proportion of the total population. And, finally, $\gamma$ is the rate of death due to infection (i.e. virulence), which can be known as the removal rate.
+In this simple $SIR$ model, $S$, $I$, and $R$ represent the fraction of susceptible, infected, and removed hosts, respectively, where $S + I + R = 1$. $\beta$ represents the frequency-dependent transmission, where $\beta S I$ informs the rate at which new individuals become infected, as a proportion of the total population. And, finally, $\gamma$ is the rate of death due to infection (i.e. virulence). In some models this is considered the recovery or immune rate. I'm assuming, among other things, that there is no recovery, only death due to infection. 
 
 Because mechanistic models like this one do such a good job at capturing the non-linear dynamics of infection, they are often used as predictive tools to inform, for instance, how vaccination or climate change or (insert your favorite meme) might influence disease epidemics. However, it is rare to see these models parameterized in rigorous ways, likely because this can involve complicated experiments that might be infeasible, say, in human systems. Moreover, non-linear model-fitting routines can be computationally costly and might lie outside the expertise of field ecologists who collect the necessary data. 
 
 However, if we collect our data in simple, yet calculated, ways, new technologies make model-fitting a surmountable challenge. And model-fitting can help get us those coveted parameter estimates that we need to make predictions. Furthermore, if model-fitting is done in a Bayesian framework, in cases where some parameters can be estimated with experimental data, we can combine information from the lab and from the field in a rigorous analysis. For instance, we can fit a mechanistic model to epidemic data collected from the field, and we can use experimental measurements of some or all model parameters to construct prior likelihoods. 
 
-In this blog post, I will show how we can fit a simple, mechanistic $SI$ model to simulated data - representing easily collected data from the field - using *R* and *Stan*. 
+In this blog post, I will show how we can fit a simple, mechanistic $SIR$ model to simulated data - representing easily collected data from the field - using *R* and *Stan*. 
 
-First, I will generate data by integrating an $SI$ model with known $\beta$ and $\gamma$ parameters. This will simulate an epidemic window, which represents a time period over which data can be collected. For instance, we can go to the field and measure the proportion of hosts infected at various time points to capture the rise and fall of infection. This data is used to fit the model. 
+First, I will generate data by integrating an $SIR$ model with known $\beta$ and $\gamma$ parameters. This will simulate an epidemic window, which represents a time period over which data can be collected. For instance, we can go to the field and measure the proportion of hosts infected at various time points to capture the rise and fall of infection. This data is used to fit the model. 
 
 
 {% highlight r %}
@@ -37,6 +38,7 @@ options(mc.cores = parallel::detectCores())
 
 I0 = 0.02    # initial fraction infected
 S0 = 1 - I0 # initial fraction susceptible
+R0 = 0
 
 # Assign transmission and pathogen-induced death rates:
 beta = 0.60
@@ -49,7 +51,7 @@ params <- list(beta = beta,
               gamma = gamma)
 
 # Initial conditions are stored in a vector
-inits <- c(S0, I0)
+inits <- c(S0, I0, R0)
 
 # Create a time series over which to integrate.
 # Here we have an epidemic that is observed over t_max number of days (or weeks or etc).
@@ -59,24 +61,26 @@ times = t_min:t_max
 
 # We must create a function for the system of ODEs.
 # See the 'ode' function documentation for further insights.
-SI <- function(t, y, params) {
+SIR <- function(t, y, params) {
   with(as.list(c(params, y)), {
     
     dS = - beta * y[1] * y[2]
     
     dI = beta * y[1] * y[2] - gamma * y[2]
     
-    res <- c(dS,dI)
+    dR = gamma * y[2]
+    
+    res <- c(dS,dI,dR)
     list(res)
   })
 }
 
 # Run the integration:
-out <- ode(inits, times, SI, params, method="ode45")
+out <- ode(inits, times, SIR, params, method="ode45")
 
 # Store the output in a data frame:
 out <- data.frame(out)
-colnames(out) <- c("time", "S", "I")
+colnames(out) <- c("time", "S", "I", "R")
 
 # quick plot of the epidemic
 plot(NA,NA, xlim = c(t_min, t_max), ylim=c(0, 1), xlab = "Time", ylab="Fraction of Host Population")
@@ -130,6 +134,7 @@ functions {
       
       dydt[1] = - params[1] * y[1] * y[2];
       dydt[2] = params[1] * y[1] * y[2] - params[2] * y[2];
+      dydt[3] = params[2] * y[2];
       
       return dydt;
     }
@@ -166,6 +171,7 @@ transformed parameters{
 
   y0[1] = S0;
   y0[2] = 1 - S0;
+  y0[3] = 0;
   
   y_hat = integrate_ode_rk45(SI, y0, t0, ts, params, x_r, x_i);
   
@@ -249,7 +255,7 @@ apply(posts$params, 2, median)
 
 
 {% highlight r %}
-apply(posts$y0, 2, median)
+apply(posts$y0, 2, median)[1:2]
 {% endhighlight %}
 
 
