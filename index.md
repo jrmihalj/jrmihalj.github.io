@@ -9,9 +9,8 @@ tags:
   - disease ecology
 ---
 
-# Welcome!
 
-### NEWS: I will be starting as an Assistant Professor in the School of Informatics, Computing, and Cyber Systems at Northern Arizona University in January 2018. I'll be recruiting graduate students soon. 
+### NEWS: I will be starting as an Assistant Professor in the School of Informatics, Computing, and Cyber Systems at Northern Arizona University in January 2018. I will be recruiting graduate students this Fall. 
 
 
 My research lies at the intersection of community and disease ecology. I apply a variety of mathematical, statistical and empirical methods to discover the ecological and epidemiological drivers of host-pathogen community composition, with the ultimate goal of informing infectious disease dynamics. 
