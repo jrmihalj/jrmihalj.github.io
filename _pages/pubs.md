@@ -7,6 +7,7 @@ header:
 permalink: /publications/
 ---
 
+**Mihaljevic, JR**, BJ Hoye, and PTJ Johnson. *In press*. Parasite metacommunities: Evaluating the roles of host community composition and environmental gradients in structuring symbiont communities of amphibians. *Journal of Animal Ecology* 
 
 **Mihaljevic, JR**, MB Joseph, and PTJ Johnson. 2015. Using multi-species occupancy models to improve the characterization and understanding of metacommunity structure. *Ecology* 96: 1783–1792. [PDF](https://drive.google.com/open?id=0B9UsfqlH3_y1MFVXbl9HRXpJclk){:target="_blank"}
 
