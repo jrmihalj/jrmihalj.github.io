@@ -24,7 +24,6 @@ feature_row:
     url: /research/pest-control
     btn_label: "Read More"
     btn_class: "btn--inverse"
-feature_row:
   - image_path: metacom.jpg
     #title: "Placeholder 2"
     excerpt: "Symbiont Metacommunities"
@@ -46,7 +45,5 @@ feature_row:
 ---
 
 ### Research Topics
-
-{% include feature_row %}
 
 {% include feature_row %}
