@@ -24,8 +24,29 @@ feature_row:
     url: /research/pest-control
     btn_label: "Read More"
     btn_class: "btn--inverse"
+feature_row:
+  - image_path: coinfect.jpg
+    #title: 
+    excerpt: "Host-Pathogen Community Dynamics"
+    url: /research/host-pathogen-diversity
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: metacom.jpg
+    #title: "Placeholder 2"
+    excerpt: "Symbiont Metacommunities"
+    url: /research/symbiont-metacommunities
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: DFTM.jpg
+    #title: "Placeholder 3"
+    excerpt: "Viral Pest Control"
+    url: /research/pest-control
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
 ---
 
-I'm interested in understanding the ecological and epidemiological drivers of host and pathogen community composition. By studying the drivers of composition, and then determining how composition affects transmission, we should gain a more holistic understanding of infectious disease dynamics in wildlife communities.
+### Research Topics
+
+{% include feature_row %}
 
 {% include feature_row %}
