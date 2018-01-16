@@ -14,6 +14,7 @@ permalink: /research/pest-control/
 Outbreaks of the Douglas-fir tussock moth (DFTM) can cause massive die-offs in Douglas-fir stands, as well as other True fir species across western North America. To combat the ecological and economic losses due to these large defoliation events, the US Forest Service has developed a natural baculovirus as an EPA-approved insecticide, specific to DFTM. The use of viral agents against forest defoliators, however, does not typically take into account critical aspects of host-pathogen biology, particularly the density-dependent nature of transmission and non-linearities. We are seeking to better understand the application of this viral pesticide by combining experiments that measure transmission and mechanistic models that explain long-term dynamics. 
 
 ![DFTM1](/images/research/DFTM1.jpg)
+![DFTM_mod](/images/research/DFTM_model.jpg)
 
 ## Maintenance of viral polymorphism
 

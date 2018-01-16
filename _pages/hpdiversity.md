@@ -7,7 +7,7 @@ header:
 permalink: /research/host-pathogen-diversity/
 ---
 
-# Host and Pathogen Community Dynamics
+# Host and Pathogen Interactions
 
 Over the last decade, empirical and theoretical work has determined that host community composition affects the transmission of generalist pathogens, often in nuanced ways that can be specific to different systems. At the same time, the pathogen community composition within and among hosts can influence pathogen replication and host survival rates, thereby affecting transmission. Thus, a major avenue of future research is to determine the concominant affects of host and pathogen community composition in real wildlife disease systems.
 
