@@ -10,6 +10,9 @@ main:
   - title: "Publications"
     url: /publications/
   
+  - title: "Prospective Scientists"
+    url: /prospective/
+  
   - title: "Blog and News"
     url: /blog/
 
