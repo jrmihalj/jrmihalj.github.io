@@ -3,7 +3,7 @@ layout: single
 author_profile: false
 header:
   image: mt_humphreys.jpg
-  caption: *Humphreys Peak, Flagstaff* 
+  caption: "*Humphreys Peak, Flagstaff*" 
 permalink: /prospective/
 ---
 
