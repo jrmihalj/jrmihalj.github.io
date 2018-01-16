@@ -3,12 +3,12 @@ main:
   
   - title: "Research"
     url: /research/
+    
+  - title: "People"
+    url: /people/
 
   - title: "Publications"
     url: /publications/
-    
-  - title: "CV"
-    url: https://drive.google.com/file/d/0B9UsfqlH3_y1cXFFZ3RVSUlJeTg/view?usp=sharing
   
   - title: "Blog and News"
     url: /blog/
