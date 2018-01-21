@@ -19,5 +19,8 @@ School of Informatics, Computing, and Cyber Systems
 1295 S. Knoles Drive   
 PO Box 5693    
 Flagstaff, AZ 86011   
-(Joe's office is SICCS #213, second floor)   
+
+Office: SICCS 213
+Phone: (928) 523-5125
+Email: joseph.mihaljevic@nau.edu
 
