@@ -6,7 +6,7 @@ permalink: /people/
 
 ## Joe Mihaljevic, PhD
 <figure>
-  <img src="/images/bio-photo.jpg" style="float:left;width:300px;height:359px">
+  <img src="/images/bio-photo.jpg" style="float:left;width:300px;height:450px">
 </figure>
 
 
