@@ -8,12 +8,12 @@ permalink: /publications/
 ---
 
 
-### Pre-prints
+## Pre-prints
 
 **Mihaljevic, JR**, KM Polivka, CJ Mehmel, C Li, V Dukic, and G Dwyer. 2018. Using biological control data to understand host-pathogen dynamics. *bioRxiv* 285080; doi: [https://doi.org/10.1101/285080](https://doi.org/10.1101/285080){:target="_blank"} 
 
 
-### Peer Reviewed
+## Peer Reviewed
 
 **Mihaljevic, JR**, BJ Hoye, and PTJ Johnson. 2017. Parasite metacommunities: Evaluating the roles of host community composition and environmental gradients in structuring symbiont communities of amphibians. *Journal of Animal Ecology* 87:354-368. [PDF](https://drive.google.com/file/d/1UVSHMO-08w943HRcI9GnAOQwWU0tt5um/view?usp=sharing){:target="_blank"} 
 
