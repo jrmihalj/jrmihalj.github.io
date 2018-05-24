@@ -12,6 +12,8 @@ permalink: /publications/
 
 **Mihaljevic, JR**, KM Polivka, CJ Mehmel, C Li, V Dukic, and G Dwyer. 2018. Using biological control data to understand host-pathogen dynamics. *bioRxiv* 285080; doi: [https://doi.org/10.1101/285080](https://doi.org/10.1101/285080){:target="_blank"} 
 
+**Mihaljevic, JR**, JT Hoverman, and PTJ Johnson. 2018. Co-exposure to multiple *Ranavirus* types enhances viral infectivity and replication in a larval amphibian system. *bioRxiv* 329821; doi: [https://doi.org/10.1101/329821](https://doi.org/10.1101/329821){:target="_blank"} 
+
 
 ## Peer Reviewed
 
