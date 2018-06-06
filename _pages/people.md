@@ -6,7 +6,7 @@ permalink: /people/
 
 ## Principal Investigator
 
-#Joe Mihaljevic, PhD
+# Joe Mihaljevic, PhD
 <figure>
   <img src="/images/bio-photo.jpg" style="float:left;width:300px;height:450px">
 </figure>
