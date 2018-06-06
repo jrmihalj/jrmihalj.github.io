@@ -11,9 +11,6 @@ tags:
 ---
 
 
-### News   
-We are hiring a full-time Research Technician! Click [here](/prospective/){:target="_blank"} for details. 
-
 ### Research Overview
 Research in our lab integrates across disciplines to understand the dominant drivers of pathogen transmission in wildlife systems. While we are strongly grounded in epidemiological theory, we also develop statistical computing techniques to rigorously link our models with data that we collect from the lab and from the field. We seek to constantly motivate our field work and modeling with real-world issues of conservation, disease control, and pest control. Read more about our research projects [here](/research/){:target="_blank"}, or check out some recent blog coverage: [here](http://www.numbatmedia.com/stories/2016/4/5/mihaljevic?platform=hootsuite){:target="_blank"} and [here](https://rcc.uchicago.edu/woods){:target="_blank"}.
 
