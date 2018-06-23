@@ -16,7 +16,7 @@ Research in our lab integrates across disciplines to understand the dominant dri
 
 
 ### Diversity in STEM Fields
-Our lab is committed to supporting the growth of student scientists from diverse and historicaly underrepresented groups in the STEM fields, including those who identify as ethnic, racial, economic, religious and gender minorities, and those from the LGBTQ+ community. We believe that our science and our society are improved by recognizing and fostering diverse perspectives.  
+Our lab is committed to supporting the growth of student scientists from diverse and historicaly underrepresented groups in the STEM fields, including those who identify as ethnic, racial, economic, religious and gender minorities, and those from the [LGBTQ+ community](https://www.500queerscientists.com/fullscreen-page/comp-jgwk54xq/0c22682c-0ab7-4f30-b4e6-402572c51997/376/%3Fi%3D376%26p%3Dt0wwl%26s%3Dstyle-ji69aaj5){:target="_blank"}. We believe that our science and our society are improved by recognizing and fostering diverse perspectives.  
 
 
 ### Quick Links
