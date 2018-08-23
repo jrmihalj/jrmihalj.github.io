@@ -25,3 +25,10 @@ Office: SICCS 213
 Phone: (928) 523-5125   
 Email: joseph.mihaljevic@nau.edu   
 
+
+## Professional Research Technician
+
+### Kelsey Banister
+<figure>
+  <img src="/images/Kelsey.jpg" style="float:left">
+</figure>
