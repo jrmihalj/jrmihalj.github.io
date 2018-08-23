@@ -29,6 +29,9 @@ Email: joseph.mihaljevic@nau.edu
 ## Professional Research Technician
 
 ### Kelsey Banister
+
+Email: kelsey.banister@nau.edu
+
 <figure>
   <img src="/images/Kelsey.jpg" style="float:left">
 </figure>
