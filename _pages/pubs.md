@@ -10,7 +10,7 @@ permalink: /publications/
 
 ## Pre-prints
 
-Ranjeva, SL$^{\*}$, **JR Mihaljevic**$^{\*}$, MB Joseph, AR Giuliano, and G Dwyer. 2018. Untangling the dynamics of persistence and colonization in microbial communities. *bioRxiv* 427542; doi: [https://doi.org/10.1101/427542](https://doi.org/10.1101/427542){:target="_blank"} $^{\*}$ These authors contributed equally to this work.
+Ranjeva, SL$^{\*}$, **JR Mihaljevic**$^{\*}$, MB Joseph, AR Giuliano, and G Dwyer. 2018. Untangling the dynamics of persistence and colonization in microbial communities. *bioRxiv* 427542; doi: [https://doi.org/10.1101/427542](https://doi.org/10.1101/427542){:target="_blank"} $^{\*}$*These authors contributed equally to this work.*
 
 **Mihaljevic, JR**, KM Polivka, CJ Mehmel, C Li, V Dukic, and G Dwyer. 2018. Using biological control data to understand host-pathogen dynamics. *bioRxiv* 285080; doi: [https://doi.org/10.1101/285080](https://doi.org/10.1101/285080){:target="_blank"} 
 
