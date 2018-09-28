@@ -10,14 +10,16 @@ permalink: /publications/
 
 ## Pre-prints
 
-Ranjeva, SL$^{\*}$, **JR Mihaljevic**$^{\*}$, MB Joseph, AR Giuliano, and G Dwyer. 2018. Untangling the dynamics of persistence and colonization in microbial communities. *bioRxiv* 427542; doi: [https://doi.org/10.1101/427542](https://doi.org/10.1101/427542){:target="_blank"} $^{\*}$*These authors contributed equally to this work.*
+Ranjeva, SL$^{\*}$, **JR Mihaljevic**$^{\*}$, MB Joseph, AR Giuliano, and G Dwyer. 2018. Untangling the dynamics of persistence and colonization in microbial communities. *bioRxiv* 427542; doi: [https://doi.org/10.1101/427542](https://doi.org/10.1101/427542){:target="_blank"} 
+$^{\*}$*These authors contributed equally to this work.*
 
 **Mihaljevic, JR**, KM Polivka, CJ Mehmel, C Li, V Dukic, and G Dwyer. 2018. Using biological control data to understand host-pathogen dynamics. *bioRxiv* 285080; doi: [https://doi.org/10.1101/285080](https://doi.org/10.1101/285080){:target="_blank"} 
 
 
 ## Peer Reviewed
 
-**Mihaljevic, JR**, JT Hoverman, and PTJ Johnson. *In press*. Co-exposure to multiple *Ranavirus* types enhances viral infectivity and replication in a larval amphibian system. *Diseases of Aquatic Organisms* (*bioRxiv* pre-print: [https://doi.org/10.1101/329821](https://doi.org/10.1101/329821){:target="_blank"})
+**Mihaljevic, JR**, JT Hoverman, and PTJ Johnson. *In press*. Co-exposure to multiple *Ranavirus* types enhances viral infectivity and replication in a larval amphibian system. *Diseases of Aquatic Organisms* [Abstract](https://doi.org/10.3354/dao03300){:target="_blank"}
+(*bioRxiv* pre-print: [https://doi.org/10.1101/329821](https://doi.org/10.1101/329821){:target="_blank"})
 
 **Mihaljevic, JR**, BJ Hoye, and PTJ Johnson. 2017. Parasite metacommunities: Evaluating the roles of host community composition and environmental gradients in structuring symbiont communities of amphibians. *Journal of Animal Ecology* 87:354-368. [PDF](https://drive.google.com/file/d/1UVSHMO-08w943HRcI9GnAOQwWU0tt5um/view?usp=sharing){:target="_blank"} 
 
