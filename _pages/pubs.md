@@ -18,7 +18,7 @@ $^{\*}$*These authors contributed equally to this work.*
 
 ## Peer Reviewed
 
-**Mihaljevic, JR**, JT Hoverman, and PTJ Johnson. 2018. Co-exposure to multiple *Ranavirus* types enhances viral infectivity and replication in a larval amphibian system. *Diseases of Aquatic Organisms* [Abstract](https://doi.org/10.3354/dao03300){:target="_blank"} (PDF upon request)
+**Mihaljevic, JR**, JT Hoverman, and PTJ Johnson. 2018. Co-exposure to multiple *Ranavirus* types enhances viral infectivity and replication in a larval amphibian system. *Diseases of Aquatic Organisms* 132:23-35. [Abstract](https://doi.org/10.3354/dao03300){:target="_blank"} (PDF upon request)
 
 **Mihaljevic, JR**, BJ Hoye, and PTJ Johnson. 2017. Parasite metacommunities: Evaluating the roles of host community composition and environmental gradients in structuring symbiont communities of amphibians. *Journal of Animal Ecology* 87:354-368. [PDF](https://drive.google.com/file/d/1UVSHMO-08w943HRcI9GnAOQwWU0tt5um/view?usp=sharing){:target="_blank"} 
 
