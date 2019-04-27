@@ -18,7 +18,7 @@ $^{\*}$*These authors contributed equally to this work.*
 
 ## Peer Reviewed
 
-**Mihaljevic, JR**, AL Greer, and JL Brunner. (*In press*). Evaluating the within-host dynamics of *Ranavirus* infection with mechanistic disease models and experimental data. *Viruses*; while in press, please see: *bioRxiv* 564120; doi: [https://doi.org/10.1101/564120](https://doi.org/10.1101/564120){:target="_blank"}. 
+**Mihaljevic, JR**, AL Greer, and JL Brunner. 2019. Evaluating the within-host dynamics of *Ranavirus* infection with mechanistic disease models and experimental data. *Viruses* 11, 396. [PDF](https://www.mdpi.com/1999-4915/11/5/396){:target="_blank"}
 
 **Mihaljevic, JR**, JT Hoverman, and PTJ Johnson. 2018. Co-exposure to multiple *Ranavirus* types enhances viral infectivity and replication in a larval amphibian system. *Diseases of Aquatic Organisms* 132:23-35. [Abstract](https://doi.org/10.3354/dao03300){:target="_blank"} (PDF upon request)
 
