@@ -13,7 +13,7 @@ Epidemiological models are sets of differential equations that quantitatively de
 
 By developing generalized models, we can better understand phenomena that apply to many systems. For instance, much of our lab's prior research has focused on developing theory to understand how biodiversity affects the transmission of multi-host pathogens (e.g., those that cause zoonotic disease in humans). In doing so, we've developed more quantitative expectations for when more speciose communities should buffer against disease spread, and when they should enhance disease spread.
 
-![Theory1](/images/research/theory1.jpg). 
+![Theory1](/images/research/theory1.jpg)
 
 
 In contrast, by constructing models that are specific to certain disease systems, we can simultaneously generate biological insights with the benefit of making detailed disease forecasts. Our goal is to integrate data from multiple sources to inform our models, so that we can make meaningful, quantitative predictions for wildlife and human health, and for pest control. Thus, our lab is also focused on developing statistical computing methods that allow us to flexibly infer the parameters of mathematical disease models from various data types. In this way, our data informs our models, and our parameterized models can make predictions. Some of our work involves modeling the spread of viruses used for biocontrol, and more information about those projects can be found [here](/research/pest-control){:target="_blank"}.
