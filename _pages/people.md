@@ -28,12 +28,22 @@ Email: joseph.mihaljevic@nau.edu
 
 ## Graduate Students
 
-### Kelsey Banister (M.S. Student and Research Technician)
+### Kelsey Banister (M.S. Student [SICCS] and Research Technician)
 
 <figure>
   <img src="/images/Kelsey_Banister_sm.jpg" style="align:left">
 </figure>
 
-Kelsey Banister is a Research Technician and Informatics Masters student, with a Bachelors of Science in Microbiology from Northern Arizona University.  Excited by complex pathogen systems and emerging diseases, Kelsey's current research interests are focused on Ranavirus genetics and genomics, pathogen detection across Arizona, disease modeling, and genetic epidemiology. Her previous laboratory experiences have involved studying mating systems and population genetics of various invertebrate species.
+Kelsey is a Research Technician and Informatics Masters student, with a Bachelors of Science in Microbiology from Northern Arizona University.  Excited by complex pathogen systems and emerging diseases, Kelsey's current research interests are focused on Ranavirus genetics and genomics, pathogen detection across Arizona, disease modeling, and genetic epidemiology. Her previous laboratory experiences have involved studying mating systems and population genetics of various invertebrate species.
 
 Email: kelsey.banister@nau.edu
+
+### Kathryn Cooney (M.S. Student [Biology])
+
+<figure>
+  <img src="/images/Kathryn_Cooney_sm.jpg" style="align:left">
+</figure>
+
+Kathryn is a Masters student in Biology, with a Bachelors of Science in Environmental Science from University of Massachusetts-Amherst. Kathryn is interested in wildlife disease dynamics, landscape ecology, and conservation biology. She is specifically interested in combining genetic, ecological, and spatial data to analyze trends in disease ecology and ecosystem functionality. 
+
+Email: kathryn.cooney@nau.edu
