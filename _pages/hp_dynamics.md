@@ -19,7 +19,7 @@ By developing generalized models, we can better understand phenomena that apply 
 In contrast, by constructing models that are specific to certain disease systems, we can simultaneously generate biological insights with the benefit of making detailed disease forecasts. Our goal is to integrate data from multiple sources to inform our models, so that we can make meaningful, quantitative predictions for wildlife and human health, and for pest control. Thus, our lab is also focused on developing statistical computing methods that allow us to flexibly infer the parameters of mathematical disease models from various data types:
 
 
-![Theory1](/images/research/theory2.jpg)
+![Theory1](/images/research/theory2.pdf)
 
 
 In this way, our data informs our models, and our parameterized models can make predictions. Some of our work involves modeling the spread of viruses used for biocontrol, and more information about those projects can be found [here](/research/pest-control){:target="_blank"}.
