@@ -22,8 +22,9 @@ In contrast, by constructing models that are specific to certain disease systems
 
 In addition to insect viruses, we use amphibian viruses as a model system to better understand host-pathogen dynamics in a changing world. The genus *Ranavirus* is an ecologically and genetically diverse clade of double-stranded DNA (dsDNA) viruses. Ranaviruses are globally widespread, and regionally prevalent, which makes them a tractable system to explore fundamental questions in disease ecology, epidemiology, and conservation biology. 
 
-![Ranavirus1](/images/research/ranavirus1.jpg) 
+We are using epidemiological modeling to better understand the within- and among-host processes that affect Ranavirus transmission, with the goal of developing methods that can be broadly applied to other disease systems. For instance, we have fit models that describe the interactions between viral replication and immune-system reponses to infer the mechanisms that control the within-host population dynamics of Ranaviruses:
 
+![Ranavirus2](/images/research/ranavirus1.pdf)
 
-![Ranavirus2](/images/research/ranavirus2.jpg)
+Our current work is focused on developing flexible models of viral transmission in amphibian populations, with the goal of integrating the effects of environmental temperature. In this way, we can use our models to forecast disease transmission under future and novel climate conditions. 
 

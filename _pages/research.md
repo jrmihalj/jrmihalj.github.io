@@ -9,7 +9,7 @@ feature_row:
   - image_path: coinfect.jpg
     #title: 
     excerpt: "Models of Host-Pathogen Dynamics"
-    url: /research/host-pathogen-diversity
+    url: /research/host-pathogen-dynamics
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: DFTM.jpg
