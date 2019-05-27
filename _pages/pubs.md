@@ -20,6 +20,8 @@ $^{\*}$*These authors contributed equally to this work.*
 
 **Mihaljevic, JR**, AL Greer, and JL Brunner. 2019. Evaluating the within-host dynamics of *Ranavirus* infection with mechanistic disease models and experimental data. *Viruses* 11, 396. [PDF](https://www.mdpi.com/1999-4915/11/5/396){:target="_blank"}
 
+Carran, S, CM Polivka, **JR Mihaljevic**, and G Dwyer. 2019. Detection of low levels of baculovirus for outbreak-terminating epizootics in defoliating insects. *Research Note PNW-RN-580* U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station. [PDF](https://www.fs.fed.us/pnw/pubs/pnw_rn580.pdf){:target="_blank"}
+
 **Mihaljevic, JR**, JT Hoverman, and PTJ Johnson. 2018. Co-exposure to multiple *Ranavirus* types enhances viral infectivity and replication in a larval amphibian system. *Diseases of Aquatic Organisms* 132:23-35. [Abstract](https://doi.org/10.3354/dao03300){:target="_blank"} (PDF upon request)
 
 **Mihaljevic, JR**, BJ Hoye, and PTJ Johnson. 2017. Parasite metacommunities: Evaluating the roles of host community composition and environmental gradients in structuring symbiont communities of amphibians. *Journal of Animal Ecology* 87:354-368. [PDF](https://drive.google.com/file/d/1UVSHMO-08w943HRcI9GnAOQwWU0tt5um/view?usp=sharing){:target="_blank"} 
