@@ -63,7 +63,7 @@ Email: dao63@nau.edu
 ### Braden Spencer
 
 <figure>
-  <img src="/images/Braden_Spencer.jpg" style="align:left">
+  <img src="/images/Braden_Spencer.jpg" style="align:left;width:380px;height:500px">
 </figure>
 
 Braden is pursuing a Bachelors of Science in Civil-Environmental Engineering. Braden is interested in modeling disease within amphibian populations, and how we can use these models, mathematics, and statistics to better understand disease spread through various species and climates. In 2019, Braden (along with Diego) received the prestigious Urdea Collaborative Research Award to study the effects of temperature on viral shedding rates in the *Ranavirus* system. 
