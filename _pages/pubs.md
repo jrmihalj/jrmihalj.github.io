@@ -14,13 +14,15 @@ permalink: /publications/
 
 Polivka, CM, **JR Mihaljevic**, G Dwyer. 2019. Use of a mechanistic growth model in fish habitat restoration: juvenile Chinook salmon and steelhead as a test case. *bioRxiv* 665588; doi: [https://doi.org/10.1101/665588](https://doi.org/10.1101/665588){:target="_blank"} 
 
-Ranjeva, SL$^{\*}$, **JR Mihaljevic**$^{\*}$, MB Joseph, AR Giuliano, and G Dwyer. 2018. Untangling the dynamics of persistence and colonization in microbial communities. *bioRxiv* 427542; doi: [https://doi.org/10.1101/427542](https://doi.org/10.1101/427542){:target="_blank"} 
-$^{\*}$*These authors contributed equally to this work.*
-
 
 ## Peer Reviewed
 
+Ranjeva, SL$^{\*}$, **JR Mihaljevic**$^{\*}$, MB Joseph, AR Giuliano, and G Dwyer. *In press*. Untangling the dynamics of persistence and colonization in microbial communities. *The ISME Journal* (while in press, *bioRxiv* 427542; doi: [https://doi.org/10.1101/427542](https://doi.org/10.1101/427542){:target="_blank"})
+$^{\*}$*These authors contributed equally to this work.*
+
 **Mihaljevic, JR**, AL Greer, and JL Brunner. 2019. Evaluating the within-host dynamics of *Ranavirus* infection with mechanistic disease models and experimental data. *Viruses* 11, 396. [PDF](https://www.mdpi.com/1999-4915/11/5/396){:target="_blank"}
+
+Jadin, RC, **JR Mihaljevic**, and SA Orlofske. 2019. Do New World pitvipers ‘scale down’ at high elevations? Macroecological patterns of scale characters and body size. *Ecology and Evolution* [PDF](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.5486) 
 
 Carran, S, CM Polivka, **JR Mihaljevic**, and G Dwyer. 2019. Detection of low levels of baculovirus for outbreak-terminating epizootics in defoliating insects. *Research Note PNW-RN-580* U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station. [PDF](https://www.fs.fed.us/pnw/pubs/pnw_rn580.pdf){:target="_blank"}
 
