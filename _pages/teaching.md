@@ -13,7 +13,8 @@ permalink: /teaching/
 
 Open-access Resources:
 
-[Syllabus](https://drive.google.com/open?id=1bpnqmc6Mqa8iWSRBdimPgJJr_9z-HN5O), [Computer Labs](https://bitbucket.org/jrmihalj/epidemic_comp_labs/src/)
+[Syllabus](https://drive.google.com/open?id=1bpnqmc6Mqa8iWSRBdimPgJJr_9z-HN5O){:target="_blank"}, 
+[Computer Labs](https://bitbucket.org/jrmihalj/epidemic_comp_labs/src/){:target="_blank"} 
 
 
 
