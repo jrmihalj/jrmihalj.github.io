@@ -22,7 +22,7 @@ $^{\*}$*These authors contributed equally to this work.*
 
 **Mihaljevic, JR**, AL Greer, and JL Brunner. 2019. Evaluating the within-host dynamics of *Ranavirus* infection with mechanistic disease models and experimental data. *Viruses* 11, 396. [PDF](https://www.mdpi.com/1999-4915/11/5/396){:target="_blank"}
 
-Jadin, RC, **JR Mihaljevic**, and SA Orlofske. 2019. Do New World pitvipers ‘scale down’ at high elevations? Macroecological patterns of scale characters and body size. *Ecology and Evolution* [PDF](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.5486) 
+Jadin, RC, **JR Mihaljevic**, and SA Orlofske. 2019. Do New World pitvipers ‘scale down’ at high elevations? Macroecological patterns of scale characters and body size. *Ecology and Evolution* [PDF](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.5486){:target="_blank"} 
 
 Carran, S, CM Polivka, **JR Mihaljevic**, and G Dwyer. 2019. Detection of low levels of baculovirus for outbreak-terminating epizootics in defoliating insects. *Research Note PNW-RN-580* U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station. [PDF](https://www.fs.fed.us/pnw/pubs/pnw_rn580.pdf){:target="_blank"}
 
