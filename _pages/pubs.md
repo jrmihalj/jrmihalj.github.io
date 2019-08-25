@@ -10,15 +10,14 @@ permalink: /publications/
 
 ## Pre-prints
 
-**Mihaljevic, JR**, CM Polivka, CJ Mehmel, C Li, V Dukic, and G Dwyer. 2019. An empirical test of the role of small-scale transmission in large-scale disease dynamics. *bioRxiv* 285080; doi: [https://doi.org/10.1101/285080](https://doi.org/10.1101/285080){:target="_blank"} 
-
 Polivka, CM, **JR Mihaljevic**, G Dwyer. 2019. Use of a mechanistic growth model in fish habitat restoration: juvenile Chinook salmon and steelhead as a test case. *bioRxiv* 665588; doi: [https://doi.org/10.1101/665588](https://doi.org/10.1101/665588){:target="_blank"} 
 
 
 ## Peer Reviewed
 
-Ranjeva, SL$^{\*}$, **JR Mihaljevic**$^{\*}$, MB Joseph, AR Giuliano, and G Dwyer. *In press*. Untangling the dynamics of persistence and colonization in microbial communities. *The ISME Journal* (while in press, *bioRxiv* 427542; doi: [https://doi.org/10.1101/427542](https://doi.org/10.1101/427542){:target="_blank"})
-$^{\*}$*These authors contributed equally to this work.*
+**Mihaljevic, JR**, CM Polivka, CJ Mehmel, C Li, V Dukic, and G Dwyer. *In press*. An empirical test of the role of small-scale transmission in large-scale disease dynamics. *The American Naturalist* (while in press, see *bioRxiv* 285080; doi: [https://doi.org/10.1101/285080](https://doi.org/10.1101/285080){:target="_blank"} 
+
+Ranjeva, SL$^{\*}$, **JR Mihaljevic**$^{\*}$, MB Joseph, AR Giuliano, and G Dwyer. 2019. Untangling the dynamics of persistence and colonization in microbial communities. *The ISME Journal* [PDF](https://www.nature.com/articles/s41396-019-0488-7){:target="_blank"})$^{\*}$*These authors contributed equally to this work.*
 
 **Mihaljevic, JR**, AL Greer, and JL Brunner. 2019. Evaluating the within-host dynamics of *Ranavirus* infection with mechanistic disease models and experimental data. *Viruses* 11, 396. [PDF](https://www.mdpi.com/1999-4915/11/5/396){:target="_blank"}
 
