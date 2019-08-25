@@ -22,4 +22,4 @@ Open-access Resources:
 
 Open-access Resources:
 
-TBA
+[Syllabus](https://drive.google.com/open?id=1bpnqmc6Mqa8iWSRBdimPgJJr_9z-HN5O){:target="_blank"}
