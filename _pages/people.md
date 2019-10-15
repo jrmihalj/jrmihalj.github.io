@@ -67,3 +67,11 @@ Email: dao63@nau.edu
 </figure>
 
 Braden is pursuing a Bachelors of Science in Civil-Environmental Engineering. Braden is interested in modeling disease within amphibian populations, and how we can use these models, mathematics, and statistics to better understand disease spread through various species and climates. In 2019, Braden (along with Diego) received the prestigious Urdea Collaborative Research Award to study the effects of temperature on viral shedding rates in the *Ranavirus* system. 
+
+### Monica Long
+
+<figure>
+  <img src="/images/Monica_Long.jpg" style="align:left">
+</figure>
+
+Monica is pursuing a Bachelors of Science in Biology with minors in Chemistry and Disability Studies. Monica's research interests are in the areas of cellular and molecular biology, and genetics. Monica also enjoys the study of viruses and how they affect the molecular make-up of humans and animals.
