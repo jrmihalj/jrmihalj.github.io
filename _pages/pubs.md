@@ -15,7 +15,7 @@ Polivka, CM, **JR Mihaljevic**, G Dwyer. 2019. Use of a mechanistic growth model
 
 ## Peer Reviewed
 
-**Mihaljevic, JR**, CM Polivka, CJ Mehmel, C Li, V Dukic, and G Dwyer. *In press*. An empirical test of the role of small-scale transmission in large-scale disease dynamics. *The American Naturalist* (while in press, see *bioRxiv* 285080; doi: [https://doi.org/10.1101/285080](https://doi.org/10.1101/285080){:target="_blank"}) 
+**Mihaljevic, JR**, CM Polivka, CJ Mehmel, C Li, V Dukic, and G Dwyer. *In press*. An empirical test of the role of small-scale transmission in large-scale disease dynamics. *The American Naturalist*  [PDF-early view](https://www.journals.uchicago.edu/doi/pdfplus/10.1086/707457){:target="_blank"}
 
 Wilber, MQ, AJ Jani, **JR Mihaljevic**, and CJ Briggs. 2019. Fungal infection alters the selection, dispersal and drift processes structuring the amphibian skin microbiome. *Ecology Letters* [PDF]( https://doi.org/10.1111/ele.13414){:target="_blank"}
 
