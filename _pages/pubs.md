@@ -17,6 +17,8 @@ Polivka, CM, **JR Mihaljevic**, G Dwyer. 2019. Use of a mechanistic growth model
 
 **Mihaljevic, JR**, CM Polivka, CJ Mehmel, C Li, V Dukic, and G Dwyer. *In press*. An empirical test of the role of small-scale transmission in large-scale disease dynamics. *The American Naturalist*  [PDF-early view](https://www.amnat.org/an/newpapers/Apr-Mihaljevic-A.html){:target="_blank"}
 
+Brown, JB, **JR Mihaljevic**, L Des Marteaux, J Hrček. 2019. Metacommunity theory for transmission of heritable symbionts within insect communities. *Ecology and Evolution* [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.5754){:target="_blank"}
+
 Wilber, MQ, AJ Jani, **JR Mihaljevic**, and CJ Briggs. 2019. Fungal infection alters the selection, dispersal and drift processes structuring the amphibian skin microbiome. *Ecology Letters* [PDF]( https://doi.org/10.1111/ele.13414){:target="_blank"}
 
 Ranjeva, SL$^{\*}$, **JR Mihaljevic**$^{\*}$, MB Joseph, AR Giuliano, and G Dwyer. 2019. Untangling the dynamics of persistence and colonization in microbial communities. *The ISME Journal* 13:2998–3010. [PDF](https://www.nature.com/articles/s41396-019-0488-7){:target="_blank"} $^{\*}$*These authors contributed equally to this work.*
