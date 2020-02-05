@@ -10,7 +10,7 @@ permalink: /publications/
 
 ## Pre-prints
 
-Polivka, CM, **JR Mihaljevic**, G Dwyer. 2019. Use of a mechanistic growth model in fish habitat restoration: juvenile Chinook salmon and steelhead as a test case. *bioRxiv* 665588; doi: [https://doi.org/10.1101/665588](https://doi.org/10.1101/665588){:target="_blank"} 
+Polivka, CM, **JR Mihaljevic**, G Dwyer. 2020. Use of a mechanistic growth model in evaluating post-restoration habitat quality for juvenile salmonids. *bioRxiv* 665588; doi: [https://doi.org/10.1101/665588](https://doi.org/10.1101/665588){:target="_blank"} 
 
 
 ## Peer Reviewed
