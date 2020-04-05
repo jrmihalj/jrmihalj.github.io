@@ -10,7 +10,7 @@ permalink: /publications/
 
 ## Peer Reviewed
 
-**Mihaljevic, JR**, CM Polivka, CJ Mehmel, C Li, V Dukic, and G Dwyer. 2020. An empirical test of the role of small-scale transmission in large-scale disease dynamics. *The American Naturalist* 195(4):616-635 [Abstract](https://www.journals.uchicago.edu/doi/abs/10.1086/707457?journalCode=an){:target="_blank"}
+**Mihaljevic, JR**, CM Polivka, CJ Mehmel, C Li, V Dukic, and G Dwyer. 2020. An empirical test of the role of small-scale transmission in large-scale disease dynamics. *The American Naturalist* 195(4):616-635 [Abstract](https://www.journals.uchicago.edu/doi/abs/10.1086/707457?journalCode=an){:target="_blank"} (PDF upon request)
 
 **Mihaljevic, JR**, AL Greer, and JL Brunner. 2019. Evaluating the within-host dynamics of *Ranavirus* infection with mechanistic disease models and experimental data. *Viruses* 11:396. [PDF](https://www.mdpi.com/1999-4915/11/5/396){:target="_blank"}
 
