@@ -8,18 +8,13 @@ permalink: /publications/
 ---
 
 
-## Pre-prints
-
-Polivka, CM, **JR Mihaljevic**, G Dwyer. 2020. Use of a mechanistic growth model in evaluating post-restoration habitat quality for juvenile salmonids. *bioRxiv* 665588; doi: [https://doi.org/10.1101/665588](https://doi.org/10.1101/665588){:target="_blank"} 
-
-
 ## Peer Reviewed
 
-**Mihaljevic, JR**, CM Polivka, CJ Mehmel, C Li, V Dukic, and G Dwyer. *In press*. An empirical test of the role of small-scale transmission in large-scale disease dynamics. *The American Naturalist*  [PDF-early view](https://www.amnat.org/an/newpapers/Apr-Mihaljevic-A.html){:target="_blank"}
+**Mihaljevic, JR**, CM Polivka, CJ Mehmel, C Li, V Dukic, and G Dwyer. 2020. An empirical test of the role of small-scale transmission in large-scale disease dynamics. *The American Naturalist* 195(4):616-635 [Abstract](https://www.journals.uchicago.edu/doi/abs/10.1086/707457?journalCode=an){:target="_blank"}
 
 Brown, JB, **JR Mihaljevic**, L Des Marteaux, J Hrček. 2019. Metacommunity theory for transmission of heritable symbionts within insect communities. *Ecology and Evolution* [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.5754){:target="_blank"}
 
-Wilber, MQ, AJ Jani, **JR Mihaljevic**, and CJ Briggs. 2019. Fungal infection alters the selection, dispersal and drift processes structuring the amphibian skin microbiome. *Ecology Letters* [PDF]( https://doi.org/10.1111/ele.13414){:target="_blank"}
+Wilber, MQ, AJ Jani, **JR Mihaljevic**, and CJ Briggs. 2019. Fungal infection alters the selection, dispersal and drift processes structuring the amphibian skin microbiome. *Ecology Letters* 23(1):88-98 [PDF]( https://doi.org/10.1111/ele.13414){:target="_blank"}
 
 Ranjeva, SL$^{\*}$, **JR Mihaljevic**$^{\*}$, MB Joseph, AR Giuliano, and G Dwyer. 2019. Untangling the dynamics of persistence and colonization in microbial communities. *The ISME Journal* 13:2998–3010. [PDF](https://www.nature.com/articles/s41396-019-0488-7){:target="_blank"} $^{\*}$*These authors contributed equally to this work.*
 
@@ -33,7 +28,7 @@ Carran, S, CM Polivka, **JR Mihaljevic**, and G Dwyer. 2019. Detection of low le
 
 **Mihaljevic, JR**, BJ Hoye, and PTJ Johnson. 2017. Parasite metacommunities: Evaluating the roles of host community composition and environmental gradients in structuring symbiont communities of amphibians. *Journal of Animal Ecology* 87:354-368. [PDF](https://drive.google.com/file/d/1UVSHMO-08w943HRcI9GnAOQwWU0tt5um/view?usp=sharing){:target="_blank"} 
 
-**Mihaljevic, JR**, MB Joseph, and PTJ Johnson. 2015. Using multi-species occupancy models to improve the characterization and understanding of metacommunity structure. *Ecology* 96: 1783–1792. [PDF](https://drive.google.com/open?id=0B9UsfqlH3_y1MFVXbl9HRXpJclk){:target="_blank"}
+**Mihaljevic, JR**, MB Joseph, and PTJ Johnson. 2015. Using multi-species occupancy models to improve the characterization and understanding of metacommunity structure. *Ecology* 96:1783–1792. [PDF](https://drive.google.com/open?id=0B9UsfqlH3_y1MFVXbl9HRXpJclk){:target="_blank"}
 
 **Mihaljevic, JR**, MB Joseph, SA Orlofske and SH Paull. 2014. The scaling of host density and richness can change the direction, shape, and detectability of diversity-disease relationships. *PLoS ONE* 9(5): e97812. [PDF](https://drive.google.com/open?id=0B9UsfqlH3_y1ZDlBTzFwelhqblk){:target="_blank"}
 
@@ -51,3 +46,7 @@ Hoverman, JT, **JR Mihaljevic**, KLD Richgels, JL Kerby and PTJ Johnson. 2012. W
 
 Burkle, LA, **JR Mihaljevic** and KG Smith. 2012. Effects of an invasive plant transcend ecosystem boundaries through a dragonfly-mediated trophic pathway. *Oecologia* 170:1045–1052. [PDF](https://drive.google.com/open?id=0B9UsfqlH3_y1aFFsSV9TeURMUGc){:target="_blank"}
 
+
+## Pre-prints
+
+Polivka, CM, **JR Mihaljevic**, G Dwyer. 2020. Use of a mechanistic growth model in evaluating post-restoration habitat quality for juvenile salmonids. *bioRxiv* 665588; doi: [https://doi.org/10.1101/665588](https://doi.org/10.1101/665588){:target="_blank"} 
