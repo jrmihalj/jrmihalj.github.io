@@ -10,17 +10,17 @@ permalink: /publications/
 
 ## Peer Reviewed
 
-**Mihaljevic, JR**, CM Polivka, CJ Mehmel, C Li, V Dukic, and G Dwyer. 2020. An empirical test of the role of small-scale transmission in large-scale disease dynamics. *The American Naturalist* 195(4):616-635 [Abstract](https://www.journals.uchicago.edu/doi/abs/10.1086/707457?journalCode=an){:target="_blank"} (PDF upon request)
+**Mihaljevic, JR**, CM Polivka, CJ Mehmel, C Li, V Dukic, and G Dwyer. 2020. An empirical test of the role of small-scale transmission in large-scale disease dynamics. *The American Naturalist* 195(4):616-635. [Abstract](https://www.journals.uchicago.edu/doi/abs/10.1086/707457?journalCode=an){:target="_blank"} (PDF upon request)
+
+Brown, JB, **JR Mihaljevic**, L Des Marteaux, J Hrček. 2020. Metacommunity theory for transmission of heritable symbionts within insect communities. *Ecology and Evolution* 10(3): 1703-1721. [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.5754){:target="_blank"}
 
 **Mihaljevic, JR**, AL Greer, and JL Brunner. 2019. Evaluating the within-host dynamics of *Ranavirus* infection with mechanistic disease models and experimental data. *Viruses* 11:396. [PDF](https://www.mdpi.com/1999-4915/11/5/396){:target="_blank"}
 
 Ranjeva, SL$^{\*}$, **JR Mihaljevic**$^{\*}$, MB Joseph, AR Giuliano, and G Dwyer. 2019. Untangling the dynamics of persistence and colonization in microbial communities. *The ISME Journal* 13:2998–3010. [PDF](https://www.nature.com/articles/s41396-019-0488-7){:target="_blank"} $^{\*}$*These authors contributed equally to this work.*
 
-Wilber, MQ, AJ Jani, **JR Mihaljevic**, and CJ Briggs. 2019. Fungal infection alters the selection, dispersal and drift processes structuring the amphibian skin microbiome. *Ecology Letters* 23(1):88-98 [PDF]( https://doi.org/10.1111/ele.13414){:target="_blank"}
+Wilber, MQ, AJ Jani, **JR Mihaljevic**, and CJ Briggs. 2019. Fungal infection alters the selection, dispersal and drift processes structuring the amphibian skin microbiome. *Ecology Letters* 23(1):88-98. [PDF]( https://doi.org/10.1111/ele.13414){:target="_blank"}
 
-Brown, JB, **JR Mihaljevic**, L Des Marteaux, J Hrček. 2019. Metacommunity theory for transmission of heritable symbionts within insect communities. *Ecology and Evolution* [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.5754){:target="_blank"}
-
-Jadin, RC, **JR Mihaljevic**, and SA Orlofske. 2019. Do New World pitvipers ‘scale down’ at high elevations? Macroecological patterns of scale characters and body size. *Ecology and Evolution* [PDF](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.5486){:target="_blank"} 
+Jadin, RC, **JR Mihaljevic**, and SA Orlofske. 2019. Do New World pitvipers ‘scale down’ at high elevations? Macroecological patterns of scale characters and body size. *Ecology and Evolution* 9(16): 9362-9375. [PDF](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.5486){:target="_blank"} 
 
 Carran, S, CM Polivka, **JR Mihaljevic**, and G Dwyer. 2019. Detection of low levels of baculovirus for outbreak-terminating epizootics in defoliating insects. *Research Note PNW-RN-580* U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station. [PDF](https://www.fs.fed.us/pnw/pubs/pnw_rn580.pdf){:target="_blank"}
 
