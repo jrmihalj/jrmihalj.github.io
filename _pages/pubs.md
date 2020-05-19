@@ -7,12 +7,13 @@ header:
 permalink: /publications/
 ---
 
-
 ## Peer Reviewed
 
 **Mihaljevic, JR**, CM Polivka, CJ Mehmel, C Li, V Dukic, and G Dwyer. 2020. An empirical test of the role of small-scale transmission in large-scale disease dynamics. *The American Naturalist* 195(4):616-635. [Abstract](https://www.journals.uchicago.edu/doi/abs/10.1086/707457?journalCode=an){:target="_blank"} (PDF upon request)
 
 Brown, JB, **JR Mihaljevic**, L Des Marteaux, J Hrček. 2020. Metacommunity theory for transmission of heritable symbionts within insect communities. *Ecology and Evolution* 10(3): 1703-1721. [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.5754){:target="_blank"}
+
+Polivka, CM, **JR Mihaljevic**, G Dwyer. *In press*. Use of a mechanistic growth model in evaluating post-restoration habitat quality for juvenile salmonids. *PLoS ONE* (while in press: *bioRxiv* 665588; doi: [https://doi.org/10.1101/665588](https://doi.org/10.1101/665588){:target="_blank"})
 
 **Mihaljevic, JR**, AL Greer, and JL Brunner. 2019. Evaluating the within-host dynamics of *Ranavirus* infection with mechanistic disease models and experimental data. *Viruses* 11:396. [PDF](https://www.mdpi.com/1999-4915/11/5/396){:target="_blank"}
 
@@ -47,6 +48,3 @@ Hoverman, JT, **JR Mihaljevic**, KLD Richgels, JL Kerby and PTJ Johnson. 2012. W
 Burkle, LA, **JR Mihaljevic** and KG Smith. 2012. Effects of an invasive plant transcend ecosystem boundaries through a dragonfly-mediated trophic pathway. *Oecologia* 170:1045–1052. [PDF](https://drive.google.com/open?id=0B9UsfqlH3_y1aFFsSV9TeURMUGc){:target="_blank"}
 
 
-## Pre-prints
-
-Polivka, CM, **JR Mihaljevic**, G Dwyer. 2020. Use of a mechanistic growth model in evaluating post-restoration habitat quality for juvenile salmonids. *bioRxiv* 665588; doi: [https://doi.org/10.1101/665588](https://doi.org/10.1101/665588){:target="_blank"} 
