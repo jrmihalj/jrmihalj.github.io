@@ -13,7 +13,7 @@ permalink: /publications/
 
 Brown, JB, **JR Mihaljevic**, L Des Marteaux, J Hrček. 2020. Metacommunity theory for transmission of heritable symbionts within insect communities. *Ecology and Evolution* 10(3): 1703-1721. [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.5754){:target="_blank"}
 
-Polivka, CM, **JR Mihaljevic**, G Dwyer. *In press*. Use of a mechanistic growth model in evaluating post-restoration habitat quality for juvenile salmonids. *PLoS ONE* (while in press: *bioRxiv* 665588; doi: [https://doi.org/10.1101/665588](https://doi.org/10.1101/665588){:target="_blank"})
+Polivka, CM, **JR Mihaljevic**, G Dwyer. 2020. Use of a mechanistic growth model in evaluating post-restoration habitat quality for juvenile salmonids. *PLoS ONE* 15(6): e0234072. [PDF](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0234072){:target="_blank"}
 
 **Mihaljevic, JR**, AL Greer, and JL Brunner. 2019. Evaluating the within-host dynamics of *Ranavirus* infection with mechanistic disease models and experimental data. *Viruses* 11:396. [PDF](https://www.mdpi.com/1999-4915/11/5/396){:target="_blank"}
 
