@@ -16,7 +16,7 @@ Dr. Mihaljevic is an Assistant Professor at Northern Arizona University's School
 
 
 ### Diversity in STEM Fields
-Our lab is committed to supporting the growth of student scientists from diverse and historicaly underrepresented groups in the STEM fields, including those who identify as ethnic, racial, economic, religious and gender minorities, and those from the [LGBTQ+ community](https://www.500queerscientists.com/){:target="_blank"}. We believe that our science and our society are improved by recognizing and fostering diverse perspectives.  
+Our lab is committed to supporting the growth of student scientists from diverse and historically underrepresented groups in the STEM fields, including those who identify as ethnic, racial, economic, religious and gender minorities, and those from the [LGBTQ+ community](https://www.500queerscientists.com/){:target="_blank"}. We believe that our science and our society are improved by recognizing and fostering diverse perspectives.  
 
 
 ### Quick Links
