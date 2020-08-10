@@ -26,3 +26,5 @@ Our lab is committed to supporting the growth of student scientists from diverse
 [School of Informatics, Computing, and Cyber Systems](http://nau.edu/SICCS/){:target="_blank"} 
 
 [The Pathogen and Microbiome Institute](https://nau.edu/pmi/){:target="_blank"}
+
+[The Center for Health Equity Research](https://nau.edu/cher/){:target="_blank"}
