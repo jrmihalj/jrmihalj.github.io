@@ -56,7 +56,7 @@ Email: kathryn.cooney@nau.edu
   <img src="/images/Nicole_Crews.jpeg" style="align:left">
 </figure>
 
-Nicole is pursuing a Bachelors of Science in Microbiology with a minor in Chemistry. Nicole is interested in pathogen genomics and disease transmission. She particularly enjoys studying zoonotic diseases and how they spread between different host species. 
+Nicole is pursuing a Bachelors of Science in Microbiology with a minor in Chemistry. Nicole is interested in pathogen genomics and disease transmission. She particularly enjoys studying zoonotic diseases and how they spread between different host species. Nicole is working on a project to understand the effects of bird population dynamics on West Nile virus in mosquito populations of Maricopa County, AZ. 
 
 
 ### Braden Spencer
@@ -76,7 +76,7 @@ Braden is pursuing a Bachelors of Science in Civil-Environmental Engineering. Br
   <img src="/images/Diego_Olivo.jpg" style="align:left">
 </figure>
 
-Diego is pursuing a Bachelors of Science in Chemistry and Biology. Diego's primary research interests are in DNA and virology. In 2019, Diego (along with Braden) received the prestigious Urdea Collaborative Research Award to study the effects of temperature on viral shedding rates in the *Ranavirus* system. 
+Diego received his Bachelors of Science in Chemistry and Biology in May 2020. In 2019, Diego (along with Braden) earned the prestigious Urdea Collaborative Research Award to study the effects of temperature on viral shedding rates in the *Ranavirus* system. Now Diego is gaining experience in the job market before applying to graduate schools. 
 
 
 ### Monica Long
@@ -85,4 +85,4 @@ Diego is pursuing a Bachelors of Science in Chemistry and Biology. Diego's prima
   <img src="/images/Monica_Long.jpg" style="align:left">
 </figure>
 
-Monica is pursuing a Bachelors of Science in Biology with minors in Chemistry and Disability Studies. Monica's research interests are in the areas of cellular and molecular biology, and genetics. Monica also enjoys the study of viruses and how they affect the molecular make-up of humans and animals.
+Monica received a Bachelors of Science in Biology with minors in Chemistry and Disability Studies in May 2020. Monica is now pursuing a Masters in Bioinformatics and Genomics at the University of Oregon!
