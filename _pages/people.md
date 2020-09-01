@@ -50,15 +50,14 @@ Email: kathryn.cooney@nau.edu
 
 ## Undergraduate Students
 
-### Diego Olivo
+### Nicole Crews
 
 <figure>
-  <img src="/images/Diego_Olivo.jpg" style="align:left">
+  <img src="/images/Nicole_Crews.jpeg" style="align:left">
 </figure>
 
-Diego is pursuing a Bachelors of Science in Chemistry and Biology. Diego's primary research interests are in DNA and virology. In 2019, Diego (along with Braden) received the prestigious Urdea Collaborative Research Award to study the effects of temperature on viral shedding rates in the *Ranavirus* system. 
+Nicole is pursuing a Bachelors of Science in Microbiology with a minor in Chemistry. Nicole is interested in pathogen genomics and disease transmission. She particularly enjoys studying zoonotic diseases and how they spread between different host species. 
 
-Email: dao63@nau.edu
 
 ### Braden Spencer
 
@@ -67,6 +66,18 @@ Email: dao63@nau.edu
 </figure>
 
 Braden is pursuing a Bachelors of Science in Civil-Environmental Engineering. Braden is interested in modeling disease within amphibian populations, and how we can use these models, mathematics, and statistics to better understand disease spread through various species and climates. In 2019, Braden (along with Diego) received the prestigious Urdea Collaborative Research Award to study the effects of temperature on viral shedding rates in the *Ranavirus* system. 
+
+
+## Alumni
+
+### Diego Olivo
+
+<figure>
+  <img src="/images/Diego_Olivo.jpg" style="align:left">
+</figure>
+
+Diego is pursuing a Bachelors of Science in Chemistry and Biology. Diego's primary research interests are in DNA and virology. In 2019, Diego (along with Braden) received the prestigious Urdea Collaborative Research Award to study the effects of temperature on viral shedding rates in the *Ranavirus* system. 
+
 
 ### Monica Long
 
