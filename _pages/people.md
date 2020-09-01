@@ -53,7 +53,7 @@ Email: kathryn.cooney@nau.edu
 ### Nicole Crews
 
 <figure>
-  <img src="/images/Nicole_Crews.jpeg" style="align:left">
+  <img src="/images/Nicole_Crews.jpeg" style="align:left;width:380px;height:506px">
 </figure>
 
 Nicole is pursuing a Bachelors of Science in Microbiology with a minor in Chemistry. Nicole is interested in pathogen genomics and disease transmission. She particularly enjoys studying zoonotic diseases and how they spread between different host species. Nicole is working on a project to understand the effects of bird population dynamics on West Nile virus in mosquito populations of Maricopa County, AZ. 
