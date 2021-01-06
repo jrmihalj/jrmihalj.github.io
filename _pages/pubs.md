@@ -10,9 +10,10 @@ permalink: /publications/
 
 ## Peer Reviewed
 
+Porter, WT, ZA Barrand, J Wachara, K DaVall, **JR Mihaljevic**, T Pearson, DJ Salkeld, NC Nieto. 2021. Predicting the current and future distribution of the western black-legged tick, *Ixodes pacificus*, across the Western US using citizen science collections. *PLoS ONE*. 16(1): e0244754. [PDF](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0244754){:target="_blank"}
+
 **Mihaljevic, JR**, CM Polivka, CJ Mehmel, C Li, V Dukic, and G Dwyer. 2020. An empirical test of the role of small-scale transmission in large-scale disease dynamics. *The American Naturalist* 195(4):616-635. [Abstract](https://www.journals.uchicago.edu/doi/abs/10.1086/707457?journalCode=an){:target="_blank"} (PDF upon request)
 
-Porter, WT, ZA Barrand, J Wachara, K DaVall, **JR Mihaljevic**, T Pearson, DJ Salkeld, NC Nieto. *In press*. Predicting the current and future distribution of the western black-legged tick, *Ixodes pacificus*, across the Western US using citizen science collections. *PLoS ONE*.
 
 Brown, JB, **JR Mihaljevic**, L Des Marteaux, J Hrček. 2020. Metacommunity theory for transmission of heritable symbionts within insect communities. *Ecology and Evolution* 10(3): 1703-1721. [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.5754){:target="_blank"}
 
