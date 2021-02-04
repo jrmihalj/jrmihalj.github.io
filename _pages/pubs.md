@@ -10,6 +10,8 @@ permalink: /publications/
 
 ## Peer Reviewed
 
+Panisello, DY, **JR Mihaljevic**, M Mbegbu, C Wood, C Hepp, S Kyman, H Hornstra, R Trotter, E Cope, T Pearson. *In press*. Survival of *Staphylococcus aureus* on sampling swabs stored at different temperatures.*Journal of Applied Microbiology*. 
+
 Porter, WT, ZA Barrand, J Wachara, K DaVall, **JR Mihaljevic**, T Pearson, DJ Salkeld, NC Nieto. 2021. Predicting the current and future distribution of the western black-legged tick, *Ixodes pacificus*, across the Western US using citizen science collections. *PLoS ONE*. 16(1): e0244754. [PDF](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0244754){:target="_blank"}
 
 **Mihaljevic, JR**, CM Polivka, CJ Mehmel, C Li, V Dukic, and G Dwyer. 2020. An empirical test of the role of small-scale transmission in large-scale disease dynamics. *The American Naturalist* 195(4):616-635. [Abstract](https://www.journals.uchicago.edu/doi/abs/10.1086/707457?journalCode=an){:target="_blank"} (PDF upon request)
