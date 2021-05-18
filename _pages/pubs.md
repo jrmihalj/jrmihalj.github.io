@@ -7,6 +7,8 @@ header:
 permalink: /publications/
 ---
 
+## Pre-prints (not peer reviewed)
+**Mihaljevic, JR**,  S Borkovec,  S Ratnavale,  TD Hocking,  KE Banister,  JE Eppinger,  CM Hepp,  and  E  Doerry. 2021.   SPARSEMODr:   Rapid  simulations  of  spatially  explicit  andstochastic  models  of  infectious  disease. *medRxiv*. [URL](https://www.medrxiv.org/content/early/2021/05/18/2021.05.13.21256216){:target="_blank"}
 
 ## Peer Reviewed
 
