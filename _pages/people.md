@@ -31,7 +31,7 @@ Email: joseph.mihaljevic@nau.edu
 ### Saikanth Ratnavale, PhD
 
 <figure>
-  <img src="/images/Saikanth_Ratnavale_sm.jpg" style="float:left;width:300px;height:450px">>
+  <img src="/images/Saikanth_Ratnavale_sm.jpg" style="float:left;width:300px;height:450px">
 </figure>
 
 Saikanth conducts research related to understanding the transmission of SARS-CoV-2 in regional, rural networks in Arizona. He is also developing statistical algorithms to fit complex, non-linear disease models to diverse data sets. Saikanth graduated with a PhD in Applied Mathematics from Texas Tech University in 2019 and studied the behavior of boundary optimal control problems with inequality constraints. His research interests lie in Applied Mathematics, more specifically Numerical Analysis, Partial Differential Equations, Scientific Computing, and Disease Modeling.
