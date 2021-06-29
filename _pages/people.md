@@ -26,6 +26,18 @@ Phone: (928) 523-5125
 Email: joseph.mihaljevic@nau.edu   
 
 
+## Postdoctoral Scholars
+
+### Saikanth Ratnavale, PhD
+
+<figure>
+  <img src="/images/Saikanth_Ratnavale_sm.jpg" style="align:left">
+</figure>
+
+Saikanth conducts research related to understanding the transmission of SARS-CoV-2 in regional, rural networks in Arizona. He is also developing statistical algorithms to fit complex, non-linear disease models to diverse data sets. Saikanth graduated with a PhD in Applied Mathematics from Texas Tech University in 2019 and studied the behavior of boundary optimal control problems with inequality constraints. His research interests lie in Applied Mathematics, more specifically Numerical Analysis, Partial Differential Equations, Scientific Computing, and Disease Modeling.
+
+Email: saikanth.ratnavale@nau.edu
+
 ## Graduate Students
 
 ### Kelsey Banister (M.S. Student [SICCS] and Research Technician)
@@ -48,25 +60,6 @@ Kathryn is a Masters student in Biology, with a Bachelors of Science in Environm
 
 Email: kathryn.cooney@nau.edu
 
-## Undergraduate Students
-
-### Nicole Crews
-
-<figure>
-  <img src="/images/Nicole_Crews.jpeg" style="align:left;width:380px;height:506px">
-</figure>
-
-Nicole is pursuing a Bachelors of Science in Microbiology with a minor in Chemistry. Nicole is interested in pathogen genomics and disease transmission. She particularly enjoys studying zoonotic diseases and how they spread between different host species. Nicole is working on a project to understand the effects of bird population dynamics on West Nile virus in mosquito populations of Maricopa County, AZ. 
-
-
-### Braden Spencer
-
-<figure>
-  <img src="/images/Braden_Spencer.jpg" style="align:left;width:380px;height:500px">
-</figure>
-
-Braden is pursuing a Bachelors of Science in Civil-Environmental Engineering. Braden is interested in modeling disease within amphibian populations, and how we can use these models, mathematics, and statistics to better understand disease spread through various species and climates. In 2019, Braden (along with Diego) received the prestigious Urdea Collaborative Research Award to study the effects of temperature on viral shedding rates in the *Ranavirus* system. 
-
 
 ## Alumni
 
@@ -86,3 +79,20 @@ Diego received his Bachelors of Science in Chemistry and Biology in May 2020. In
 </figure>
 
 Monica received a Bachelors of Science in Biology with minors in Chemistry and Disability Studies in May 2020. Monica is now pursuing a Masters in Bioinformatics and Genomics at the University of Oregon!
+
+### Nicole Crews
+
+<figure>
+  <img src="/images/Nicole_Crews.jpeg" style="align:left;width:380px;height:506px">
+</figure>
+
+Nicole received a Bachelors of Science in Microbiology with a minor in Chemistry. Nicole is interested in pathogen genomics and disease transmission, and is currently working as a laboratory technician in a hospital in Arizona.
+
+
+### Braden Spencer
+
+<figure>
+  <img src="/images/Braden_Spencer.jpg" style="align:left;width:380px;height:500px">
+</figure>
+
+Braden is pursuing a Bachelors of Science in Civil-Environmental Engineering and is currently studying abroad in Chile! Braden is interested in modeling disease within amphibian populations, and how we can use these models, mathematics, and statistics to better understand disease spread through various species and climates. In 2019, Braden (along with Diego) received the prestigious Urdea Collaborative Research Award to study the effects of temperature on viral shedding rates in the *Ranavirus* system. 
