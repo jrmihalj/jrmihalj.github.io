@@ -65,7 +65,7 @@ Email: kathryn.cooney@nau.edu
 ### Zane Ondovcik
 
 <figure>
-  <img src="/images/Zane_Ondovcik.jpg" style="float:left;width:300px;height:450px">
+  <img src="/images/Zane_Ondovcik.jpg" style="float:left;width:300px;height:400px">
 </figure>
 
 Zane is an undergraduate student pursuing a Bachelors of Science in Chemistry and Environmental Science. Zane is passionate about complex relationships within the natural world. In particular, he is interested in studying the effects of disease and pollution in conjunction with preserving natural systems.
