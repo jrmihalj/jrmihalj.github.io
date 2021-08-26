@@ -60,6 +60,16 @@ Kathryn is a Masters student in Biology, with a Bachelors of Science in Environm
 
 Email: kathryn.cooney@nau.edu
 
+### Tanner Porter (Ph.D. Student)
+
+<figure>
+  <img src="/images/Tanner_Porter.jpg" style="float:left;width:630px;height:450px">
+</figure>
+
+Tanner is an PhD student in Informatics and Research Associate at TGen's Pathogen & Microbiome Division. He has a Bachelors of Science in Microbiology and a Masters degree in Biology from Northern Arizona University. His previous research has focused on utilizing citizen science to characterize tick-borne diseases across the US. Tanner's interests are in understanding temporal and spatial drivers of emerging pathogens through the use of molecular and disease modeling techniques.
+
+Email: tporter@tgen.org
+
 ## Undergraduates
 
 ### Zane Ondovcik
