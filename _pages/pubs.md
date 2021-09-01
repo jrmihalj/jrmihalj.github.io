@@ -7,7 +7,10 @@ header:
 permalink: /publications/
 ---
 
-## Pre-prints (not peer reviewed)
+## Pre-prints (not yet peer reviewed)
+
+**Mihaljevic, JR**, DJ Páez. 2021. Systematic shifts in the variation among host individuals must be considered in climate-disease theory. *bioRxiv*. [URL](https://www.biorxiv.org/content/10.1101/2021.08.30.458260v1){:target="_blank"}
+
 **Mihaljevic, JR**,  S Borkovec,  S Ratnavale,  TD Hocking,  KE Banister,  JE Eppinger,  CM Hepp,  and  E  Doerry. 2021.   SPARSEMODr:   Rapid  simulations  of  spatially  explicit  and stochastic  models  of  infectious  disease. *medRxiv*. [URL](https://www.medrxiv.org/content/early/2021/05/18/2021.05.13.21256216){:target="_blank"}
 
 ## Peer Reviewed
