@@ -15,7 +15,9 @@ permalink: /publications/
 
 ## Peer Reviewed
 
-Panisello, DY, **JR Mihaljevic**, M Mbegbu, C Wood, C Hepp, S Kyman, H Hornstra, R Trotter, E Cope, T Pearson. 2021. Survival of *Staphylococcus aureus* on sampling swabs stored at different temperatures. *Journal of Applied Microbiology*. [PDF](https://sfamjournals.onlinelibrary.wiley.com/doi/10.1111/jam.15023){:target="_blank"}
+Dwyer, G, **JR Mihaljevic**, V Dukic. 2021. Can Eco-Evo Theory Explain Population Cycles in the Field? *The American Naturalist*. [Early View PDF](https://www.journals.uchicago.edu/doi/abs/10.1086/717178?journalCode=an){:target="_blank"}
+
+Panisello, DY, **JR Mihaljevic**, M Mbegbu, C Wood, C Hepp, S Kyman, H Hornstra, R Trotter, E Cope, T Pearson. 2021. Survival of *Staphylococcus aureus* on sampling swabs stored at different temperatures. *Journal of Applied Microbiology*. 131(3): 1030-1038. [PDF](https://sfamjournals.onlinelibrary.wiley.com/doi/10.1111/jam.15023){:target="_blank"}
 
 Porter, WT, ZA Barrand, J Wachara, K DaVall, **JR Mihaljevic**, T Pearson, DJ Salkeld, NC Nieto. 2021. Predicting the current and future distribution of the western black-legged tick, *Ixodes pacificus*, across the Western US using citizen science collections. *PLoS ONE*. 16(1): e0244754. [PDF](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0244754){:target="_blank"}
 
