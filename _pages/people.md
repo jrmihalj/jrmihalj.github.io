@@ -34,7 +34,7 @@ Email: joseph.mihaljevic@nau.edu
   <img src="/images/Kelsey_Banister_sm.jpg" style="align:left">
 </figure>
 
-Kelsey is a Research Technician and graduated with their MS in Informatics in December 2021. Kelsey also has a Bachelors of Science in Microbiology from Northern Arizona University. Excited by complex pathogen systems and emerging diseases, Kelsey's current research interests are focused on Ranavirus genetics and genomics, pathogen detection across Arizona, disease modeling, and genetic epidemiology. Her previous laboratory experiences have involved studying mating systems and population genetics of various invertebrate species.
+Kelsey is a Research Technician and graduated with their MS in Informatics in December 2021. Kelsey also has a Bachelors of Science in Microbiology from Northern Arizona University. Excited by complex pathogen systems and emerging diseases, Kelsey's current research interests are focused on Ranavirus genetics and genomics, pathogen detection across Arizona, disease modeling, and genetic epidemiology. Their previous laboratory experiences have involved studying mating systems and population genetics of various invertebrate species.
 
 Email: kelsey.banister@nau.edu
 
