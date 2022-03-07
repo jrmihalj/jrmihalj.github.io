@@ -9,7 +9,7 @@ permalink: /teaching/
 
 # Courses taught at NAU
 
-## INF-599: Infectious Disease Ecology & Epidemiology
+## INF-414/514: Modeling the spread of infectious disease
 
 Open-access Resources:
 
