@@ -12,7 +12,7 @@ tags:
 
 
 ### Research Overview
-Dr. Mihaljevic is an Assistant Professor at Northern Arizona University's School of Informatics, Computing, and Cyber Systems (SICCS), and he is an affiliate researcher at NAU's Pathogen and Microbiome Institute. Research in our lab integrates across disciplines to understand the dominant drivers of pathogen transmission. While we are strongly grounded in epidemiological theory, we also develop statistical computing techniques to rigorously link our models with data that we collect from the lab, from the field, and from previously published research. We seek to constantly motivate our field work and modeling with real-world issues of wildlife conservation, public health, and pest control. Read more about our research projects [here](/research/){:target="_blank"}.
+Dr. Mihaljevic is an Assistant Professor at Northern Arizona University's School of Informatics, Computing, and Cyber Systems (SICCS), and he is an affiliate researcher at NAU's Pathogen and Microbiome Institute. Research in our lab integrates across disciplines to understand the dominant drivers of pathogen transmission, with applications in wildlife conservation and public health. Grounded in epidemiological theory, we develop statistical computing techniques to rigorously link mechanistic models with diverse data sources, and we construct collaborative cyberinfrastructure to operationalize modeling techniques for real world applications. 
 
 ### Recent Grants!
 
