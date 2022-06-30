@@ -17,6 +17,8 @@ Ratnavale, S, CM Hepp,  E Doerry, and **JR Mihaljevic**. 2022.   A sliding windo
 
 ## Peer Reviewed
 
+Sieben, AJ, **JR Mihaljevic**, LG Shoemaker. *Accepted*. Quantifying mechanisms of coexistence in disease ecology. *Ecology*. Email PI Mihaljevic for a copy.
+
 Kollath, DR, **JR Mihaljevic**, BM Barker. 2022. PM10 and Other Climatic Variables Are Important Predictors of Seasonal Variability of Coccidioidomycosis in Arizona. *Microbiology Spectrum*. e01483-21. [PDF](https://journals.asm.org/doi/full/10.1128/spectrum.01483-21){:target="_blank"}
 
 Dwyer, G, **JR Mihaljevic**, V Dukic. 2021. Can Eco-Evo Theory Explain Population Cycles in the Field? *The American Naturalist*. [Early View PDF](https://www.journals.uchicago.edu/doi/abs/10.1086/717178?journalCode=an){:target="_blank"}
