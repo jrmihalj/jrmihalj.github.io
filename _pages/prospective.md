@@ -9,7 +9,7 @@ permalink: /prospective/
 
 ## Prospective Research Staff
 
-We are recruiting two positions to support a recently awarded NIH grant, with up to five years of fundin:
+We are recruiting two positions to support a recently awarded NIH grant, with up to five years of funding:
 - [Research Software Engineer](https://careers.insidehighered.com/job/2535483/research-software-engineer/){:target="_blank"}
 - [Postdoctoral Scholar](https://careers.insidehighered.com/job/2552265/postdoctoral-scholar-mihaljevic-lab/){:target="_blank"}
 
