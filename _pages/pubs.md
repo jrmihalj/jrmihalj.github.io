@@ -17,11 +17,11 @@ Ratnavale, S, CM Hepp,  E Doerry, and **JR Mihaljevic**. 2022.   A sliding windo
 
 ## Peer Reviewed
 
-Sieben, AJ, **JR Mihaljevic**, LG Shoemaker. *Accepted*. Quantifying mechanisms of coexistence in disease ecology. *Ecology*. Email PI Mihaljevic for a copy.
+Sieben, AJ, **JR Mihaljevic**, LG Shoemaker. *Accepted*. Quantifying mechanisms of coexistence in disease ecology. *Ecology*. [Early View PDF](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecy.3819){:target="_blank"}
 
 Kollath, DR, **JR Mihaljevic**, BM Barker. 2022. PM10 and Other Climatic Variables Are Important Predictors of Seasonal Variability of Coccidioidomycosis in Arizona. *Microbiology Spectrum*. e01483-21. [PDF](https://journals.asm.org/doi/full/10.1128/spectrum.01483-21){:target="_blank"}
 
-Dwyer, G, **JR Mihaljevic**, V Dukic. 2021. Can Eco-Evo Theory Explain Population Cycles in the Field? *The American Naturalist*. [Early View PDF](https://www.journals.uchicago.edu/doi/abs/10.1086/717178?journalCode=an){:target="_blank"}
+Dwyer, G, **JR Mihaljevic**, V Dukic. 2021. Can Eco-Evo Theory Explain Population Cycles in the Field? *The American Naturalist*. 199(1): 108-125. [PDF](https://www.journals.uchicago.edu/doi/abs/10.1086/717178?journalCode=an){:target="_blank"}
 
 Panisello, DY, **JR Mihaljevic**, M Mbegbu, C Wood, C Hepp, S Kyman, H Hornstra, R Trotter, E Cope, T Pearson. 2021. Survival of *Staphylococcus aureus* on sampling swabs stored at different temperatures. *Journal of Applied Microbiology*. 131(3): 1030-1038. [PDF](https://sfamjournals.onlinelibrary.wiley.com/doi/10.1111/jam.15023){:target="_blank"}
 
