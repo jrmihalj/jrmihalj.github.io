@@ -14,7 +14,7 @@ permalink: /publications/
 
 ## Peer Reviewed
 
-**Mihaljevic, JR**,  S Borkovec,  S Ratnavale,  TD Hocking,  KE Banister,  JE Eppinger,  CM Hepp,  and  E  Doerry. *In press*.   SPARSEMODr:   Rapid  simulations  of  spatially  explicit  and stochastic  models  of  infectious  disease. *Biology Methods & Protocols*. [Pre-print](https://www.medrxiv.org/content/early/2021/05/18/2021.05.13.21256216){:target="_blank"}
+**Mihaljevic, JR**,  S Borkovec,  S Ratnavale,  TD Hocking,  KE Banister,  JE Eppinger,  CM Hepp,  and  E  Doerry. *In press*.   SPARSEMODr: Rapidly simulate spatially-explicit and stochastic models of COVID-19 and other infectious diseases. *Biology Methods & Protocols*. [Pre-print](https://www.medrxiv.org/content/early/2021/05/18/2021.05.13.21256216){:target="_blank"}
 
 Ratnavale, S, CM Hepp,  E Doerry, and **JR Mihaljevic**. *In press*. A sliding window approach to optimize the time-varying parameters of a spatially-explicit and stochastic model of COVID-19. *PLOS Global Public Health*. [Pre-print](https://www.medrxiv.org/content/10.1101/2022.03.21.22272590v1){:target="_blank"}
 
