@@ -9,15 +9,16 @@ permalink: /publications/
 
 ## Pre-prints (not yet peer reviewed)
 
-Ratnavale, S, CM Hepp,  E Doerry, and **JR Mihaljevic**. 2022.   A sliding window approach to optimize the time-varying parameters of a spatially-explicit and stochastic model of COVID-19. *medRxiv*. [URL](https://www.medrxiv.org/content/10.1101/2022.03.21.22272590v1){:target="_blank"}
-
 **Mihaljevic, JR**, DJ Páez. 2021. Systematic shifts in the variation among host individuals must be considered in climate-disease theory. *bioRxiv*. [URL](https://www.biorxiv.org/content/10.1101/2021.08.30.458260v1){:target="_blank"}
 
-**Mihaljevic, JR**,  S Borkovec,  S Ratnavale,  TD Hocking,  KE Banister,  JE Eppinger,  CM Hepp,  and  E  Doerry. 2021.   SPARSEMODr:   Rapid  simulations  of  spatially  explicit  and stochastic  models  of  infectious  disease. *medRxiv*. [URL](https://www.medrxiv.org/content/early/2021/05/18/2021.05.13.21256216){:target="_blank"}
 
 ## Peer Reviewed
 
-Sieben, AJ, **JR Mihaljevic**, LG Shoemaker. *Accepted*. Quantifying mechanisms of coexistence in disease ecology. *Ecology*. [Early View PDF](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecy.3819){:target="_blank"}
+**Mihaljevic, JR**,  S Borkovec,  S Ratnavale,  TD Hocking,  KE Banister,  JE Eppinger,  CM Hepp,  and  E  Doerry. *In press*.   SPARSEMODr:   Rapid  simulations  of  spatially  explicit  and stochastic  models  of  infectious  disease. *Biology Methods & Protocols*. [Pre-print](https://www.medrxiv.org/content/early/2021/05/18/2021.05.13.21256216){:target="_blank"}
+
+Ratnavale, S, CM Hepp,  E Doerry, and **JR Mihaljevic**. *In press*. A sliding window approach to optimize the time-varying parameters of a spatially-explicit and stochastic model of COVID-19. *PLOS Global Public Health*. [Pre-print](https://www.medrxiv.org/content/10.1101/2022.03.21.22272590v1){:target="_blank"}
+
+Sieben, AJ, **JR Mihaljevic**, LG Shoemaker. *In press*. Quantifying mechanisms of coexistence in disease ecology. *Ecology*. [Early View PDF](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecy.3819){:target="_blank"}
 
 Kollath, DR, **JR Mihaljevic**, BM Barker. 2022. PM10 and Other Climatic Variables Are Important Predictors of Seasonal Variability of Coccidioidomycosis in Arizona. *Microbiology Spectrum*. e01483-21. [PDF](https://journals.asm.org/doi/full/10.1128/spectrum.01483-21){:target="_blank"}
 
