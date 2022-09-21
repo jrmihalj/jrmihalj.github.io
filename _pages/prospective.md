@@ -9,17 +9,14 @@ permalink: /prospective/
 
 ## Prospective Research Staff
 
-We are recruiting two positions to support a recently awarded NIH grant, with up to five years of funding:
-- [Research Software Engineer](https://careers.insidehighered.com/job/2535483/research-software-engineer/){:target="_blank"}
-- [Postdoctoral Scholar](https://careers.insidehighered.com/job/2552265/postdoctoral-scholar-mihaljevic-lab/){:target="_blank"}
+We are recruiting to support a recently awarded NIH grant, with up to five years of funding:
+- [Lead Systems Software Engineer](https://www.linkedin.com/jobs/view/3278408345/?alternateChannel=search&refId=cIb1JH89jWZuR%2FUVrQvO4A%3D%3D&trackingId=2Cq6rsebIOaJazuZyndwsA%3D%3D){:target="_blank"}
 
-These positions will support our recent [NIH-funded project](https://jrmihalj.github.io/nih-grant/){:target="_blank"} that is focused on understanding the ways in which spatial epidemiological models can be better deployed to support public health decision-making. The project will develop theory, build software (called EpiMoRPH – Epidemiological Modeling Resources for Public Health), and coordinate with diverse stakeholders in academia, public health, and industry. 
-
-The staff members will work closely in collaboration with Dr. Mihaljevic and Dr. Eck Doerry (Computer Science) at NAU. The chosen candidates can also develop collaborations with researchers in the Pathogen and Microbiome Institute and the Center for Health Equity Research at NAU, and with other collaborators at Arizona State University, University of Nebraska at Lincoln, and Northwestern University.
+This position will support our recent [NIH-funded project](https://jrmihalj.github.io/nih-grant/){:target="_blank"} that is focused on understanding the ways in which spatial epidemiological models can be better deployed to support public health decision-making. The project will develop theory, build software (called EpiMoRPH – Epidemiological Modeling Resources for Public Health), and coordinate with diverse stakeholders in academia, public health, and industry. 
 
 Start date is flexible, but ideally the candidates would start soon. 
 
-To apply, please go to [NAU Careers](https://in.nau.edu/human-resources/current-job-openings/){:target="_blank"} > Staff Openings > Search for "Mihaljevic" to pull up the open positions. You will need to create a profile to apply. 
+To apply, please go to [NAU Careers](https://in.nau.edu/human-resources/current-job-openings/){:target="_blank"} > Staff Openings > Search for "Software Engineer" to pull up the open position. You will need to create a profile to apply. 
 
 Please reach out to Dr. Mihaljevic with questions. 
 
