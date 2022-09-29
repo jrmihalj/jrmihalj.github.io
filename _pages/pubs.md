@@ -14,11 +14,11 @@ permalink: /publications/
 
 ## Peer Reviewed
 
-**Mihaljevic, JR**,  S Borkovec,  S Ratnavale,  TD Hocking,  KE Banister,  JE Eppinger,  CM Hepp,  and  E  Doerry. 2022.   SPARSEMODr: Rapidly simulate spatially-explicit and stochastic models of COVID-19 and other infectious diseases. *Biology Methods & Protocols*. [PDF](https://doi.org/10.1093/biomethods/bpac022){:target="_blank"}
+**Mihaljevic, JR**,  S Borkovec,  S Ratnavale,  TD Hocking,  KE Banister,  JE Eppinger,  CM Hepp,  and  E  Doerry. 2022.   SPARSEMODr: Rapidly simulate spatially-explicit and stochastic models of COVID-19 and other infectious diseases. *Biology Methods & Protocols*. 7(1) bpac022. [PDF](https://doi.org/10.1093/biomethods/bpac022){:target="_blank"}
 
-Ratnavale, S, CM Hepp,  E Doerry, and **JR Mihaljevic**. 2022. A sliding window approach to optimize the time-varying parameters of a spatially-explicit and stochastic model of COVID-19. *PLOS Global Public Health*. [PDF](https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0001058){:target="_blank"}
+Ratnavale, S, CM Hepp,  E Doerry, and **JR Mihaljevic**. 2022. A sliding window approach to optimize the time-varying parameters of a spatially-explicit and stochastic model of COVID-19. *PLOS Global Public Health*. 2(9): e0001058. [PDF](https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0001058){:target="_blank"}
 
-Sieben, AJ, **JR Mihaljevic**, LG Shoemaker. *In press*. Quantifying mechanisms of coexistence in disease ecology. *Ecology*. [PDF](https://doi.org/10.1002/ecy.3819){:target="_blank"}
+Sieben, AJ, **JR Mihaljevic**, LG Shoemaker. 2022. Quantifying mechanisms of coexistence in disease ecology. *Ecology*. e3819. [PDF](https://onlinelibrary.wiley.com/share/author/9BAEJ44AEIASAYCDHBSB?target=10.1002/ecy.3819){:target="_blank"}
 
 Kollath, DR, **JR Mihaljevic**, BM Barker. 2022. PM10 and Other Climatic Variables Are Important Predictors of Seasonal Variability of Coccidioidomycosis in Arizona. *Microbiology Spectrum*. e01483-21. [PDF](https://journals.asm.org/doi/full/10.1128/spectrum.01483-21){:target="_blank"}
 
