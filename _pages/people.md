@@ -25,6 +25,15 @@ Office: SICCS 213
 Phone: (928) 523-5125   
 Email: joseph.mihaljevic@nau.edu   
 
+## Postdoctoral Researchers
+
+### Molly Bechtel, PhD
+
+<figure>
+  <img src="/images/Molly_Bechtel_sm.jpg" style="align:left">
+</figure>
+
+Molly graduated from the University of Nevada, Reno (UNR) with a B.Sc. and M.Sc. in Animal Science. At UNR Molly published work on parasite abundance and diversity in woodrats which further piqued her interest in disease ecology and how it applies to wildlife ecology. For her PhD at Northern Arizona University, she studied tick-borne disease in desert tortoises and how ticks and disease interact with the Mojave desert tortoise. Currently, she is interested in answering complex questions about disease ecology, climate change and host phenology through lab experiments, field biology and modeling techniques. Want to learn more? Visit [my website](mjbechtel.weebly.com){:target="_blank"}.
 
 ## Graduate Students
 
