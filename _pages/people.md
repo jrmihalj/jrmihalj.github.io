@@ -35,6 +35,14 @@ Email: joseph.mihaljevic@nau.edu
 
 Molly graduated from the University of Nevada, Reno (UNR) with a B.Sc. and M.Sc. in Animal Science. At UNR Molly published work on parasite abundance and diversity in woodrats which further piqued her interest in disease ecology and how it applies to wildlife ecology. For her PhD at Northern Arizona University, she studied tick-borne disease in desert tortoises and how ticks and disease interact with the Mojave desert tortoise. Currently, she is interested in answering complex questions about disease ecology, climate change and host phenology through lab experiments, field biology and modeling techniques. Want to learn more? Visit [my website](https://mjbechtel.weebly.com/){:target="_blank"}.
 
+### Kayode Oshinubi, PhD
+
+<figure>
+  <img src="/images/Kayode_Oshinubi_sm.jpg" style="float:left;width:411px;height:550px">
+</figure>
+
+Kayode obtained a PhD in infectious disease modeling using statistical and mathematical approaches from Université Grenoble Alpes in France, and he graduated with distinction from his master's degree in applied mathematics. His research interests include biostatistics, infectious disease modeling, data modeling, mathematical modeling, epidemiological modeling, and disease ecology. Kayode is supporting the NIH-funded EpiMoRPH project in the Mihaljevic lab. 
+
 ## Graduate Students
 
 ### Kelsey Banister, MS (Research Technician)
