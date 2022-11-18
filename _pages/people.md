@@ -45,7 +45,7 @@ Kayode obtained a PhD in infectious disease modeling using statistical and mathe
 
 ## Graduate Students
 
-### Kelsey Banister, MS (Research Technician)
+### Kelsey Banister, MS (PhD student & Research Assistant)
 
 <figure>
   <img src="/images/Kelsey_Banister_sm.jpg" style="align:left">
@@ -56,7 +56,7 @@ Kelsey is a Research Technician and graduated with their MS in Informatics in De
 Email: kelsey.banister@nau.edu
 
 
-### Tanner Porter (Ph.D. Student)
+### Tanner Porter, MS (Ph.D. Student)
 
 <figure>
   <img src="/images/Tanner_Porter.jpg" style="float:left;width:630px;height:450px">
