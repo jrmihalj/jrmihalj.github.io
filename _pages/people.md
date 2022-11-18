@@ -41,7 +41,7 @@ Molly graduated from the University of Nevada, Reno (UNR) with a B.Sc. and M.Sc.
   <img src="/images/Kayode_Oshinubi_sm.jpg" style="float:left;width:411px;height:550px">
 </figure>
 
-Kayode obtained a PhD in infectious disease modeling using statistical and mathematical approaches from Université Grenoble Alpes in France, and he graduated with distinction from his master's degree in applied mathematics. His research interests include biostatistics, infectious disease modeling, data modeling, mathematical modeling, epidemiological modeling, and disease ecology. Kayode is supporting the NIH-funded EpiMoRPH project in the Mihaljevic lab. 
+Kayode obtained a PhD in infectious disease modeling using statistical and mathematical approaches from Université Grenoble Alpes in France in 2022, and he graduated with distinction from his master's degree in applied mathematics. His research interests include biostatistics, infectious disease modeling, data modeling, mathematical modeling, epidemiological modeling, and disease ecology. Kayode is supporting the NIH-funded EpiMoRPH project in the Mihaljevic lab. 
 
 ## Graduate Students
 
@@ -56,7 +56,7 @@ Kelsey is a Research Technician and graduated with their MS in Informatics in De
 Email: kelsey.banister@nau.edu
 
 
-### Tanner Porter, MS (Ph.D. Student)
+### Tanner Porter, MS (PhD Student)
 
 <figure>
   <img src="/images/Tanner_Porter.jpg" style="float:left;width:630px;height:450px">
