@@ -104,7 +104,7 @@ Email: kathryn.cooney@nau.edu
   <img src="/images/Diego_Olivo.jpg" style="align:left">
 </figure>
 
-Diego received his Bachelors of Science in Chemistry and Biology in May 2020. In 2019, Diego (along with Braden) earned the prestigious Urdea Collaborative Research Award to study the effects of temperature on viral shedding rates in the *Ranavirus* system. Now Diego is gaining experience in the job market before applying to graduate schools. 
+Diego received his Bachelors of Science in Chemistry and Biology in May 2020. In 2019, Diego (along with Braden) earned the prestigious Urdea Collaborative Research Award to study the effects of temperature on viral shedding rates in the *Ranavirus* system. Diego is now a PhD student at Arizona State University, studying virology. 
 
 
 ### Monica Long
