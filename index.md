@@ -14,11 +14,14 @@ tags:
 ### Research Overview
 Dr. Mihaljevic is an Assistant Professor at Northern Arizona University's School of Informatics, Computing, and Cyber Systems (SICCS), and he is an affiliate researcher at NAU's Pathogen and Microbiome Institute. Research in our lab integrates across disciplines to understand the dominant drivers of pathogen transmission, with applications in wildlife conservation and public health. Grounded in epidemiological theory, we develop statistical computing techniques to rigorously link mechanistic models with diverse data sources, and we construct collaborative cyberinfrastructure to operationalize modeling techniques for real world applications. 
 
-### Recent Grants!
+### Current Funded Research
 
-We have recently received funding from both the NSF and NIH! 
-Read more about how our lab will be exploring the combined effects of climate and disease on host extinction dynamics, [here](https://news.nau.edu/tiger-salamander-ranavirus/){:target="_blank"}.
-And read more about how we are building cyberinfrastructure to improve the construction and relevance of spatial epidemiological models for public health, [here](https://news.nau.edu/mihaljevic-epimorph-grant/){:target="_blank"}. 
+-  We are exploring the combined effects of climate and disease on host extinction dynamics, using the tiger salamander and its *Ranavirus*, Ambystoma tigrinum virus, as a model system. Read more  [here](https://news.nau.edu/tiger-salamander-ranavirus/){:target="_blank"}.
+
+-  We are building cyberinfrastructure, EpiMoRPH, to facilitate the construction, model-data fusion, and formal comparison of spatial epidemiological models across distinct geographies to better enable these models for use in public health. Read more [here](https://news.nau.edu/mihaljevic-epimorph-grant/){:target="_blank"}. 
+
+-  We are developing statistical and mathematical frameworks to better integrate mobility and social determinants of health into formal mathematical models of infectious disease. This will allow for more rapid identification of social factors that influence local and regional disease dynamics, and will improve local model forecasts of disease. This project was funded as part of the Southwest Health Equity Research Collaborative (SHERC), an NIH U54. Read more [here](https://nau.edu/sherc/sherc-renewal-projects/){:target="_blank"}. 
+
 
 ### Diversity in STEM Fields
 Our lab is committed to supporting the growth of student scientists from diverse and historically underrepresented groups in the STEM fields, including those who identify as ethnic, racial, economic, religious and gender minorities, and those from the [LGBTQ+ community](https://www.500queerscientists.com/){:target="_blank"}. We believe that our science and our society are improved by recognizing and fostering diverse perspectives.  
