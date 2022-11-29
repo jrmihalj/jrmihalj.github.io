@@ -10,16 +10,17 @@ permalink: /prospective/
 <iframe width="560" height="315" src="https://www.youtube.com/embed/we_mO2w53OE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## Prospective Research Staff
+## Hiring: Postdoctoral Scholar
 
-We are recruiting to support a recently awarded NIH grant, with up to five years of funding:
-- [Lead Systems Software Engineer](https://www.linkedin.com/jobs/view/3278408345/?alternateChannel=search&refId=cIb1JH89jWZuR%2FUVrQvO4A%3D%3D&trackingId=2Cq6rsebIOaJazuZyndwsA%3D%3D){:target="_blank"}
+We are recruiting a Postdoctoral Scholar to support a recently awarded NIH grant, with up to five years of funding.
 
-This position will support our recent [NIH-funded project](https://jrmihalj.github.io/nih-grant/){:target="_blank"} that is focused on understanding the ways in which spatial epidemiological models can be better deployed to support public health decision-making. The project will develop theory, build software (called EpiMoRPH – Epidemiological Modeling Resources for Public Health), and coordinate with diverse stakeholders in academia, public health, and industry. 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We are looking for a <a href="https://twitter.com/hashtag/postdoc?src=hash&amp;ref_src=twsrc%5Etfw">#postdoc</a> to support our recently funded project, as part of the <a href="https://twitter.com/hashtag/SHERC?src=hash&amp;ref_src=twsrc%5Etfw">#SHERC</a> <a href="https://twitter.com/hashtag/CHER?src=hash&amp;ref_src=twsrc%5Etfw">#CHER</a> NIH U54. Building epi models that incorporate social determinants of health at local spatial scales. <br>More on the project here: <a href="https://t.co/zlV9EdWnne">https://t.co/zlV9EdWnne</a> <a href="https://twitter.com/hashtag/Statistics?src=hash&amp;ref_src=twsrc%5Etfw">#Statistics</a> <a href="https://twitter.com/hashtag/computing?src=hash&amp;ref_src=twsrc%5Etfw">#computing</a> <a href="https://t.co/p5AeS1zUKX">pic.twitter.com/p5AeS1zUKX</a></p>&mdash; Joe Mihaljevic (@JRM_theory) <a href="https://twitter.com/JRM_theory/status/1597704868596097024?ref_src=twsrc%5Etfw">November 29, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+This position will support our recent [NIH-funded project](https://jrmihalj.github.io/nih-sherc-grant/){:target="_blank"}. The project will develop mathematical and statistical techniques to better integrate social determinants of health and mobility patterns into models of infectious disease transmission.
 
 Start date is flexible, but ideally the candidates would start soon. 
 
-To apply, please go to [NAU Careers](https://in.nau.edu/human-resources/current-job-openings/){:target="_blank"} > Staff Openings > Search for "Software Engineer" to pull up the open position. You will need to create a profile to apply. 
+To apply, please go to [NAU Careers](https://in.nau.edu/human-resources/current-job-openings/){:target="_blank"} > Current Openings > Search for "606832" to pull up the open position. You will need to create a profile to apply. 
 
 Please reach out to Dr. Mihaljevic with questions. 
 
