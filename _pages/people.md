@@ -69,6 +69,14 @@ Carmenlita is a full-time staff within the Center for Health Equity Research at 
 
 Shelby recently received her MS in Statistics at NAU. Shelby is working on the SSCIMA project to develop code and data resources for identifying which social determinants of health correlate with epidemiological patterns at fine spatial scales. This involves developing clustering methodologies and GIS tools. 
 
+### Mehreen Malik, MPH (Research Assistant, PhD Student in Interdisciplinary Health)
+
+<figure>
+  <img src="/images/Mehreen.jpg" style="float:left;width:439px;height:400px">
+</figure>
+
+Mehreen is a PhD Student in Interdisciplinary Health at NAU and is working with Carmenlita to organize and administer key stakeholder engagement activities, including our annual Predictive Modeling for Public Health forums. 
+
 
 ## Graduate Students
 
