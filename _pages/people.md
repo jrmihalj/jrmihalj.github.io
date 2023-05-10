@@ -43,6 +43,17 @@ Molly graduated from the University of Nevada, Reno (UNR) with a B.Sc. and M.Sc.
 
 Kayode obtained a PhD in infectious disease modeling using statistical and mathematical approaches from Université Grenoble Alpes in France in 2022, and he graduated with distinction from his master's degree in applied mathematics. His research interests include biostatistics, infectious disease modeling, data modeling, mathematical modeling, epidemiological modeling, and disease ecology. Kayode is supporting the NIH-funded EpiMoRPH project in the Mihaljevic lab. 
 
+## Professional Staff
+
+### Tyler Coles (Software Systems Engineer, Lead)
+
+<figure>
+  <img src="/images/tyler.jpg" style="float:left;width:400px;height:400px">
+</figure>
+
+Tyler is leading our efforts at building software and web architectures for the NIH-funded EpiMoRPH and SSCIMA projects. Tyler also mentors several members of our lab in computer science, mathematics, and biology. 
+
+
 ## Graduate Students
 
 ### Kelsey Banister, MS (PhD student & Research Assistant)
