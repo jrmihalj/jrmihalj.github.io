@@ -33,7 +33,7 @@ Email: joseph.mihaljevic@nau.edu
   <img src="/images/Molly_Bechtel_sm.jpg" style="float:left;width:375px;height:550px">
 </figure>
 
-Molly graduated from the University of Nevada, Reno (UNR) with a B.Sc. and M.Sc. in Animal Science. At UNR Molly published work on parasite abundance and diversity in woodrats which further piqued her interest in disease ecology and how it applies to wildlife ecology. For her PhD at Northern Arizona University, she studied tick-borne disease in desert tortoises and how ticks and disease interact with the Mojave desert tortoise. Currently, she is interested in answering complex questions about disease ecology, climate change and host phenology through lab experiments, field biology and modeling techniques. Want to learn more? Visit [my website](https://mjbechtel.weebly.com/){:target="_blank"}.
+Molly graduated from the University of Nevada, Reno (UNR) with a B.Sc. and M.Sc. in Animal Science. At UNR Molly published work on parasite abundance and diversity in woodrats which further piqued her interest in disease ecology and how it applies to wildlife ecology. For her PhD at Northern Arizona University, she studied tick-borne disease in desert tortoises and how ticks and disease interact with the Mojave desert tortoise. Currently, she is interested in answering complex questions about disease ecology, climate change and host phenology through lab experiments, field biology and modeling techniques. Want to learn more? Visit [Molly's website](https://mjbechtel.weebly.com/){:target="_blank"}.
 
 ### Kayode Oshinubi, PhD
 
