@@ -72,7 +72,7 @@ Shelby recently received her MS in Statistics at NAU. Shelby is working on the S
 ### Mehreen Malik, MPH (Research Assistant, PhD Student in Interdisciplinary Health)
 
 <figure>
-  <img src="/images/Mehreen.jpg" style="float:left;width:439px;height:400px">
+  <img src="/images/Mehreen.jpg" style="float:left;width:400px;height:439px">
 </figure>
 
 Mehreen is a PhD Student in Interdisciplinary Health at NAU and is working with Carmenlita to organize and administer key stakeholder engagement activities, including our annual Predictive Modeling for Public Health forums. 
