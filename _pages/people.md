@@ -53,6 +53,14 @@ Kayode obtained a PhD in infectious disease modeling using statistical and mathe
 
 Tyler is leading our efforts at building software and web architectures for the NIH-funded EpiMoRPH and SSCIMA projects. Tyler also mentors several members of our lab in computer science, mathematics, and biology. 
 
+### Carmenlita Chief, MPH (Program Coordinator, Senior)
+
+<figure>
+  <img src="/images/carm.jpg" style="float:left;width:300px;height:300px">
+</figure>
+
+Carmenlita is a full-time staff within the Center for Health Equity Research at NAU and is partially supporting our EpiMoRPH project. Carmenlita is leading efforts to organize and administer key stakeholder engagement activities, including our annual Predictive Modeling for Public Health forums. 
+
 ### Shelby Lamm, MS (Research Associate)
 
 <figure>
