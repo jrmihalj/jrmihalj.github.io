@@ -53,6 +53,14 @@ Kayode obtained a PhD in infectious disease modeling using statistical and mathe
 
 Tyler is leading our efforts at building software and web architectures for the NIH-funded EpiMoRPH and SSCIMA projects. Tyler also mentors several members of our lab in computer science, mathematics, and biology. 
 
+### Shelby Lamm, MS (Research Associate)
+
+<figure>
+  <img src="/images/shelby.jpg" style="float:left;width:400px;height:400px">
+</figure>
+
+Shelby recently received her MS in Statistics at NAU. Shelby is working on the SSCIMA project to develop code and data resources for identifying which social determinants of health correlate with epidemiological patterns at fine spatial scales. This involves developing clustering methodologies and GIS tools. 
+
 
 ## Graduate Students
 
