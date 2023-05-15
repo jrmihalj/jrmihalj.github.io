@@ -101,15 +101,15 @@ Tanner is an PhD student in Informatics and Research Associate at TGen's Pathoge
 
 Email: tporter@tgen.org
 
-## Undergraduates
+## Undergraduate Students
 
-### Zane Ondovcik
+### Evan Landis
 
 <figure>
-  <img src="/images/Zane_Ondovcik.jpg" style="float:left;width:300px;height:400px">
+  <img src="/images/evan_landis.jpg" style="float:left;width:400px;height:363px">
 </figure>
 
-Zane is an undergraduate student pursuing a Bachelors of Science in Chemistry and Environmental Science. Zane is passionate about complex relationships within the natural world. In particular, he is interested in studying the effects of disease and pollution in conjunction with preserving natural systems. Zane's Hooper Undergraduate Research Award project involves comparing methods to detect ranaviruses in natural waterbodies using eDNA. 
+Evan is an undergraduate student currently pursuing a Bachelors of Science in Environmental Sciences at NAU. Evan is working on the Ranavirus project to identify how climate can affect disease transmission dynamics in tiger salamanders. Particularly, he is interested in understanding how climate change can impact the effects of disease. Evan works with us in the Pathogen and Microbiome Institute, and he is a member of the Interns-to-Scholars program at NAU. 
 
 ## Alumni
 
@@ -132,6 +132,14 @@ Email: saikanth.ratnavale@nau.edu
 Kathryn graduated with an MS in Biology in December 2021. Congrats, Kathryn! Kathryn is currently working for the USGS in Flagstaff, AZ.
 
 Email: kathryn.cooney@nau.edu
+
+### Zane Ondovcik
+
+<figure>
+  <img src="/images/Zane_Ondovcik.jpg" style="float:left;width:300px;height:400px">
+</figure>
+
+Zane was an undergraduate student pursuing a Bachelors of Science in Chemistry and Environmental Science (graduated December 2022). Zane is passionate about complex relationships within the natural world. In particular, he is interested in studying the effects of disease and pollution in conjunction with preserving natural systems. Zane's Hooper Undergraduate Research Award project involved comparing methods to detect ranaviruses in natural waterbodies using eDNA. 
 
 ### Diego Olivo
 
