@@ -16,7 +16,11 @@ Open-access Resources:
 [Syllabus](https://drive.google.com/open?id=1bpnqmc6Mqa8iWSRBdimPgJJr_9z-HN5O){:target="_blank"}, 
 [Computer Labs](https://bitbucket.org/jrmihalj/epidemic_comp_labs/src/){:target="_blank"} 
 
+## INF-511: Modern Regression I
 
+Open-access Resources:
+
+[Course website with code](https://joseph-mihaljevic.github.io/inf511-book/){:target="_blank"}
 
 ## INF-626/L: Applied Bayesian Modeling
 
