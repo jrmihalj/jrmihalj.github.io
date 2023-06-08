@@ -77,6 +77,14 @@ Shelby recently received her MS in Statistics at NAU. Shelby is working on the S
 
 Mehreen is a PhD Student in Interdisciplinary Health at NAU and is working with Carmenlita to organize and administer key stakeholder engagement activities, including our annual Predictive Modeling for Public Health forums. 
 
+### Frank Burkhart (Research Technician)
+
+<figure>
+  <img src="/images/frank.jpg" style="float:left;width:400px;height:533">
+</figure>
+
+Frank graduated with his B.S. in math from NAU and is now working as a research technician on the EpiMoRPH project before going to NCSU for graduate school. Frank's primary roles within EpiMoRPH are researching movement dynamics in metapopulation disease models and assisting in software development.
+
 
 ## Graduate Students
 
