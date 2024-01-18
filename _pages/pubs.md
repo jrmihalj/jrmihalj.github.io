@@ -14,6 +14,8 @@ permalink: /publications/
 
 ## Peer Reviewed
 
+Porter, WT, L Gade, P Montfort, **JR Mihaljevic**, JR Bowers, A Willman, BA Klimowski, BJ LaFleur, RH Sunenshine, J Collins, G Adame, S Brady, KK Komatsu, S Williams, M Toda, T Chiller, AP Litvintseva, DM Engelthaler. 2024. Understanding the exposure risk of aerosolized Coccidioides in a Valley fever endemic metropolis. *Scientific Reports* 14(1): 1311. [PDF](https://www.nature.com/articles/s41598-024-51407-x){:target="_blank"}
+
 **Mihaljevic, JR**,  S Borkovec,  S Ratnavale,  TD Hocking,  KE Banister,  JE Eppinger,  CM Hepp,  and  E  Doerry. 2022.   SPARSEMODr: Rapidly simulate spatially-explicit and stochastic models of COVID-19 and other infectious diseases. *Biology Methods & Protocols*. 7(1) bpac022. [PDF](https://doi.org/10.1093/biomethods/bpac022){:target="_blank"}
 
 Ratnavale, S, CM Hepp,  E Doerry, and **JR Mihaljevic**. 2022. A sliding window approach to optimize the time-varying parameters of a spatially-explicit and stochastic model of COVID-19. *PLOS Global Public Health*. 2(9): e0001058. [PDF](https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0001058){:target="_blank"}
