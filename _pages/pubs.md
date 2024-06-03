@@ -14,7 +14,11 @@ permalink: /publications/
 
 ## Peer Reviewed
 
-Porter, WT, L Gade, P Montfort, **JR Mihaljevic**, JR Bowers, A Willman, BA Klimowski, BJ LaFleur, RH Sunenshine, J Collins, G Adame, S Brady, KK Komatsu, S Williams, M Toda, T Chiller, AP Litvintseva, DM Engelthaler. 2024. Understanding the exposure risk of aerosolized Coccidioides in a Valley fever endemic metropolis. *Scientific Reports* 14(1): 1311. [PDF](https://www.nature.com/articles/s41598-024-51407-x){:target="_blank"}
+**Mihaljevic, JR**, Chief C, Malik M, Oshinubi K, Doerry E, Gel E, Hepp C, Lant T, Mehrotra S, Sabo S. 2024. An Inaugural Forum on Epidemiological Modeling for Public Health Stakeholders in Arizona. *Frontiers in Public Health* 12 p.1357908. [PDF](https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1357908/full){:target="_blank"}
+
+Dey S, Kurbanzade AK, Gel ES, **Mihaljevic JR**, Mehrotra S. 2024. Optimization modeling for pandemic vaccine supply chain management: A review and future research opportunities. *Naval Research Logistics (NRL)*. Apr 18. [PDF](https://onlinelibrary.wiley.com/doi/full/10.1002/nav.22181){:target="_blank"}
+
+Porter, WT, L Gade, P Montfort, **JR Mihaljevic**, JR Bowers, A Willman, BA Klimowski, BJ LaFleur, RH Sunenshine, J Collins, G Adame, S Brady, KK Komatsu, S Williams, M Toda, T Chiller, AP Litvintseva, DM Engelthaler. 2024. Understanding the exposure risk of aerosolized Coccidioides in a Valley fever endemic metropolis. *Scientific Reports*. 14(1): 1311. [PDF](https://www.nature.com/articles/s41598-024-51407-x){:target="_blank"}
 
 **Mihaljevic, JR**,  S Borkovec,  S Ratnavale,  TD Hocking,  KE Banister,  JE Eppinger,  CM Hepp,  and  E  Doerry. 2022.   SPARSEMODr: Rapidly simulate spatially-explicit and stochastic models of COVID-19 and other infectious diseases. *Biology Methods & Protocols*. 7(1) bpac022. [PDF](https://doi.org/10.1093/biomethods/bpac022){:target="_blank"}
 
