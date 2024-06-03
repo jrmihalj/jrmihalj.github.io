@@ -34,5 +34,5 @@ Email: joseph.mihaljevic@nau.edu
 ## Lab alums
 
 <figure>
-  <img src="/images/alumni.png" style="float:left;width:1477px;height:2447px">
+  <img src="/images/alumni.png" style="float:left">
 </figure>
