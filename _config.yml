@@ -77,17 +77,17 @@ analytics:
 author:
   name             : "Joseph Mihaljevic"
   avatar           : "bio-photo.jpg"
-  bio              : "Assistant Professor"
+  bio              : "Associate Professor"
   location         : "Northern Arizona University"
   email            : "joseph.mihaljevic@nau.edu"
   uri              :
-  bitbucket        : "jrmihalj"
+  bitbucket        : 
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : 
+  github           : "joseph-mihaljevic"
   google_plus      :
   keybase          :
   instagram        :
@@ -98,7 +98,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "JRM_theory"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
