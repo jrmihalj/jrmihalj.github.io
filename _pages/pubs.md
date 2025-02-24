@@ -7,12 +7,9 @@ header:
 permalink: /publications/
 ---
 
-## Pre-prints (not yet peer reviewed)
-
-**Mihaljevic, JR**, DJ Páez. 2021. Systematic shifts in the variation among host individuals must be considered in climate-disease theory. *bioRxiv*. [URL](https://www.biorxiv.org/content/10.1101/2021.08.30.458260v1){:target="_blank"}
-
-
 ## Peer Reviewed
+
+**Mihaljevic, JR**, DJ Páez. 2025. Systematic shifts in the variation among host individuals must be considered in climate-disease theory. *Proceedings B: The Royal Society* 292(2040). [PDF](https://royalsocietypublishing.org/doi/full/10.1098/rspb.2024.2515){:target="_blank"}
 
 **Mihaljevic, JR**, Chief C, Malik M, Oshinubi K, Doerry E, Gel E, Hepp C, Lant T, Mehrotra S, Sabo S. 2024. An Inaugural Forum on Epidemiological Modeling for Public Health Stakeholders in Arizona. *Frontiers in Public Health* 12 p.1357908. [PDF](https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1357908/full){:target="_blank"}
 
