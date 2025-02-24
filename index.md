@@ -17,7 +17,7 @@ Dr. Mihaljevic is an Assistant Professor at Northern Arizona University's School
 ### Software
 
 Our new open-source software for building, simulating, and fitting spatial disease models is now released:
-[epymorph](www.epymorph.org){:target="_blank"}.
+[epymorph](https://docs.www.epimorph.org/){:target="_blank"}.
 
 ### Current Funded Research
 
