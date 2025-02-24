@@ -14,6 +14,11 @@ tags:
 ### Research Overview
 Dr. Mihaljevic is an Assistant Professor at Northern Arizona University's School of Informatics, Computing, and Cyber Systems (SICCS), and he is an affiliate researcher at NAU's Pathogen and Microbiome Institute. Research in our lab integrates across disciplines to understand the dominant drivers of pathogen transmission, with applications in wildlife conservation and public health. Grounded in epidemiological theory, we develop statistical computing techniques to rigorously link mechanistic models with diverse data sources, and we construct collaborative cyberinfrastructure to operationalize modeling techniques for real world applications. 
 
+### Software
+
+Our new open-source software for building, simulating, and fitting spatial disease models is now released:
+[epymorph](www.epymorph.org){:target="_blank"}.
+
 ### Current Funded Research
 
 -  We are exploring the combined effects of climate and disease on host extinction dynamics, using the tiger salamander and its *Ranavirus*, Ambystoma tigrinum virus, as a model system. Read more [here](https://news.nau.edu/tiger-salamander-ranavirus/){:target="_blank"}.
